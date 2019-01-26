@@ -64,8 +64,8 @@ public class GameManager : MonoBehaviour {
 
     public static void ResetPlayers(){
         for (int i = 0; i < 5; ++i) {
-            if (players[i] != null)
-                players[i].GetComponent<Character>().Reset();
+            if (instance.players[i] != null)
+                instance.players[i].GetComponent<Character>().Reset();
         }
     }
 }

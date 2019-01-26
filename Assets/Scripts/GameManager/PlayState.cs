@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayState : GameState
 {
     private Timer timerEndGame;
-    private GameObject endGameCanvas;
     public PlayState () {
         timerEndGame = new Timer(GameManager.instance.endGameTime, EndGame);
     }
@@ -21,7 +20,6 @@ public class PlayState : GameState
     }
 
     void EndGame(){
-        GameManager.instance.endGameCanvas.SetActive(true);
-
+        GameManager.ChangeState(new EndGameState());
     }
 }
