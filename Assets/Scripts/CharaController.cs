@@ -9,6 +9,8 @@ public class CharaController : MonoBehaviour
 
     string horizontal, vertical, horizontal2, vertical2, fire, sendBag;
     Vector2 direction, orientation;
+    //Use to check if player released fire input before firing again.
+    bool fired = false;
     void Start(){
         character = gameObject.GetComponent<Character>();
     }
@@ -24,7 +26,7 @@ public class CharaController : MonoBehaviour
             orientation = new Vector2(Input.GetAxis(horizontal2), Input.GetAxis(vertical2));
         character.Move(direction);
         character.Orientate(orientation);
-        if (Input.GetButtonDown(fire))
+        if (CheckFire())
             character.UseWeapon();
         if (Input.GetButtonDown(sendBag)){
             if (character.HasLootBag())
@@ -32,7 +34,6 @@ public class CharaController : MonoBehaviour
             else
                 character.TryGrabBag();
         }
-            character.SendBag();
     }
 
     public void SetController(string name){
@@ -53,6 +54,18 @@ public class CharaController : MonoBehaviour
     Vector2 getKeyboardOrientation(){
         Vector3 CharacterPosition = Camera.main.WorldToScreenPoint(character.gameObject.transform.position);
         return Input.mousePosition - CharacterPosition;
+    }
+
+    bool CheckFire(){
+        if(controllerName == "keyboard")
+            return Input.GetButtonDown(fire);
+        if (fired && Input.GetAxis(fire) < 0.5)
+            return fired = false;
+        else if (!fired && Input.GetAxis(fire) > 0.5){
+            fired = true;
+            return true;
+        }
+        return false;
     }
 
 }

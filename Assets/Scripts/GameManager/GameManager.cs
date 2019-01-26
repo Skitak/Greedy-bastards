@@ -46,6 +46,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void PlayAgain() {
+        globalLoot = 0;
         Debug.Log("Reset game");
         states.playState.Reset();
         ChangeState(instance.states.enterPlayState);
@@ -73,5 +74,9 @@ public class GameManager : MonoBehaviour {
     public static Vector3 GetSpawnLocationFromController(string controller){
         int playerNumber = instance.controllerToPlayerIndex[controller];
         return instance.characterInitialSpawn[playerNumber].transform.position;
+    }
+
+    public static int GetNumberOfPlayers(){
+        return instance.numberOfPlayers;
     }
 }
