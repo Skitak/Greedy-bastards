@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour {
 
     }
 
-    public static int GetPlayerNumberFromController(){
+    public static int GetPlayerNumberFromController(string controller){
         return instance.controllerToPlayerIndex[controller] + 1;
     }
 }
