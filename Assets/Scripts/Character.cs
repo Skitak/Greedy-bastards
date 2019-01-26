@@ -23,7 +23,8 @@ public class Character : BaseEntity
         loot.OnLootCollected();
     }
 
-    protected virtual void Die() {
+    protected override void Die() {
+        base.Die();
         ThrowLootBag(Vector2.zero);
     }
 

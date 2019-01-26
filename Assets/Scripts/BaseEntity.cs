@@ -71,7 +71,7 @@ public class BaseEntity : MonoBehaviour {
         }
     }
 
-    public void LootBagInRange(LootBag lootBag){
+    public virtual void LootBagInRange(LootBag lootBag){
         this.lootBag = lootBag;
     }
 

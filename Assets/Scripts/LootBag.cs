@@ -68,6 +68,8 @@ public class LootBag : MonoBehaviour
             potentialOwners.Add(other.gameObject);
             other.gameObject.GetComponent<BaseEntity>().LootBagInRange(this);
         }
+        if (other.gameObject.tag == "Mob")
+            other.gameObject.GetComponent<BaseEntity>().LootBagInRange(this);
     }
 
     private void OnTriggerExit(Collider other) {

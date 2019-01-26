@@ -79,4 +79,15 @@ public class GameManager : MonoBehaviour {
     public static int GetNumberOfPlayers(){
         return instance.numberOfPlayers;
     }
+
+    public static Vector3 GetCenterPointfromPlayers(){
+        Vector3 centerOfGravity = Vector3.zero;
+        for (int i = 0; i < GetNumberOfPlayers(); ++i){
+            centerOfGravity += instance.players[i].transform.position;
+        }
+        centerOfGravity /= Mathf.Max(GetNumberOfPlayers(), 1);
+        centerOfGravity.y = 0;
+        return centerOfGravity;
+
+    }
 }
