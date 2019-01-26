@@ -4,26 +4,32 @@ using UnityEngine;
 
 public class PlayState : GameState
 {
-    private Timer timerEndGame;
-    public PlayState () {
-        timerEndGame = new Timer(GameManager.instance.endGameTime, EndGame);
+
+    Timer endGameTimer;
+    public float endGameTime;
+    void Start () {
+        endGameTimer = new Timer(endGameTime, EndGame);
     }
     public override void Enter(){
-        Debug.Log("Entering playing phase");
-        timerEndGame.ResetPlay();
+        endGameTimer.Play();
         GameManager.instance.GlobalLoot = 0;
-        GameManager.ResetPlayers();
     }
-    public override void Update(float delta){
-        if (Input.GetKeyDown("Pause")){
-            //
+    public override void UpdateState(float delta){
+        if (Input.GetButtonDown("Pause")){
+            GameManager.ChangeState(GameManager.instance.states.pauseState);
         }
+
     }
     public override void Exit(){
-        Debug.Log("Exiting playing phase");
+        endGameTimer.Pause();
     }
 
-    void EndGame(){
-        GameManager.ChangeState(new EndGameState());
+    void EndGame() {
+        endGameTimer.Reset();
+        GameManager.ChangeState(GameManager.instance.states.endGameState);
     }
+    public void Reset(){
+        endGameTimer.Reset();
+    }
+
 }

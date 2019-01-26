@@ -10,7 +10,7 @@ public class IntroductionState : GameState {
     public override void Enter(){
         SceneManager.LoadScene(introScene);
     }
-    public override void Update(float delta){
+    public override void UpdateState(float delta){
         if (Input.anyKey)
             GameManager.ChangeState(new PlayerJoinState());
     }

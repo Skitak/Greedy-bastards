@@ -5,10 +5,13 @@ using UnityEngine;
 public class EndGameState : GameState
 {
     // Start is called before the first frame update
-      
+    public GameObject endGameCanvas;
     public override void Enter(){
-        GameManager.instance.endGameCanvas.SetActive(true);
+        endGameCanvas.SetActive(true);
     }
-    public override void Update(float delta){}
-    public override void Exit(){}
+    public override void UpdateState(float delta){ }
+    public override void Exit(){
+        Debug.Log("Exiting end game");
+         endGameCanvas.SetActive(false);
+    }
 }
