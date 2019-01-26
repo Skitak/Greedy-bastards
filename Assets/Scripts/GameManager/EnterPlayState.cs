@@ -6,7 +6,8 @@ public class EnterPlayState : GameState
 {
     
     public override void Enter(){
-        // GameManager.ResetPlayers();
+        GameManager.ResetPlayers();
+        GameManager.instance.enemyManager.StartSpawning();
     }
     public override void UpdateState(float delta){
         GameManager.ChangeState(GameManager.instance.states.playState);

@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
     [HideInInspector]
     public GameObject[] players = new GameObject[4];
     public GameStateHolder states;
+    public EnemyManager enemyManager;
     public bool isGamePaused = false;
     private int globalLoot = 0;
     private Dictionary<string, int> controllerToPlayerIndex = new Dictionary<string, int>();

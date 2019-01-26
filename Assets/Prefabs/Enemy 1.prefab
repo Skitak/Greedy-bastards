@@ -69,7 +69,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2e053700c8570ea4e94c16ae1bcb9cc4, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.08320022, a: 1}
+  m_Color: {r: 1, g: 0.9941652, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 6662092205999917330}
   - component: {fileID: 3329236021554347607}
   m_Layer: 10
-  m_Name: Enemy
+  m_Name: Enemy 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96881e5888ac86c41b3b3fc7fae9dc9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  maxHealth: 10
   speed: 10
   rigid: {fileID: 7520824563256677240}
   spriteBack: {fileID: 21300000, guid: dda8153b6785c3f4b9ea77397e6d0f35, type: 3}
@@ -150,7 +150,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 7520824561907908408}
   newSprites: {fileID: 0}
   loot: {fileID: 3462135164640102839, guid: 0cf634ec74864ed4cbcf2a039d9be797, type: 3}
-  lootValue: 1
+  lootValue: 3
   searchFrequency: 2
   roamFrequency: 5
   searchRadius: 15
@@ -181,7 +181,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 4.52
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 0
