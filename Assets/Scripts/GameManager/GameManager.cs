@@ -8,9 +8,11 @@ public class GameManager : MonoBehaviour {
     public GameObject characterPrefab;
     public GameObject[] characterInitialSpawn;
     private GameState currentState;
-    private static GameManager instance;
+    public static GameManager instance;
+    public GameObject endGameCanvas;
     [HideInInspector]
     public GameObject[] players = new GameObject[4];
+    private int globalLoot = 0;
     private Dictionary<string, int> controllerToPlayerIndex = new Dictionary<string, int>();
     private int numberOfPlayers = 0;
 
@@ -41,10 +43,29 @@ public class GameManager : MonoBehaviour {
         Vector3 spawnPosition = instance.characterInitialSpawn[++instance.numberOfPlayers].transform.localPosition;
         instance.players[instance.numberOfPlayers - 1] = Instantiate(instance.characterPrefab, spawnPosition, Quaternion.identity) as GameObject;
         instance.players[instance.numberOfPlayers - 1].GetComponent<CharaController>().SetController(controller);
+    }
 
+    public void PlayAgain() {
+        endGameCanvas.SetActive(false);
+        ChangeState(new EnterPlayState());
     }
 
     public static int GetPlayerNumberFromController(string controller){
         return instance.controllerToPlayerIndex[controller] + 1;
+    }
+
+    public int GlobalLoot {
+        get{ return globalLoot;}
+        set {
+            globalLoot = value;
+            // Change UI here
+        }
+    }
+
+    public static void ResetPlayers(){
+        for (int i = 0; i < 5; ++i) {
+            if (instance.players[i] != null)
+                instance.players[i].GetComponent<Character>().Reset();
+        }
     }
 }
