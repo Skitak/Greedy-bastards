@@ -10,6 +10,9 @@ public class BaseEntity : MonoBehaviour {
     public Sprite spriteBack, spriteFront;
     public SpriteRenderer spriteRenderer;
     protected Vector2 orientation;
+    protected LootBag lootBag;
+    protected bool hasLootBag;
+    protected bool isDead = false;
 
     private int health;
 
@@ -29,7 +32,8 @@ public class BaseEntity : MonoBehaviour {
     public virtual void Move(Vector2 direction) {
         if (GameManager.instance.isGamePaused)
             return;
-        rigid.velocity = new Vector3 (direction.x, 0, direction.y) * speed;
+        float modifiedSpeed = speed * (hasLootBag ? (1f - (lootBag.GetSlowPercentage() / 100f)) : 1);
+        rigid.velocity = new Vector3 (direction.x, 0, direction.y) * modifiedSpeed;
         ChangeSpriteOrientation();
     }
 
@@ -44,11 +48,41 @@ public class BaseEntity : MonoBehaviour {
     }
 
     protected virtual void Die() {
-        Destroy(this.gameObject);
+        ThrowLootBag(Vector2.zero);
+        isDead = true;
     }
 
     public virtual void Hit(int damages){
         Health -= damages;
         //Activate animation
     }
+
+    public void TryGrabBag(){
+        if (lootBag != null)
+            hasLootBag = lootBag.TryGrab(this.gameObject);
+    }
+
+    public void ThrowLootBag(Vector2 orientation){
+        if (hasLootBag){
+            hasLootBag = false;
+            lootBag.Throw(orientation);
+        }
+    }
+
+    public void LootBagInRange(LootBag lootBag){
+        this.lootBag = lootBag;
+    }
+
+    public void LootBagOutOfRange(){
+        lootBag = null;
+    }
+
+    public bool HasLootBag(){
+        return hasLootBag;
+    }
+
+    public bool IsDead () {
+        return isDead;
+    }
+    
 }

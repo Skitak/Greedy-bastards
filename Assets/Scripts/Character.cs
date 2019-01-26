@@ -8,6 +8,7 @@ public class Character : BaseEntity
     [HideInInspector]
     public int treasuresLooted;
     public Weapon weapon;
+    public CharaController controller;
 
     public void UseWeapon() {
         weapon.tryUse(this.orientation);   
@@ -27,5 +28,16 @@ public class Character : BaseEntity
         loot.OnLootCollected();
     }
 
-    public void Reset(){}
+    protected virtual void Die() {
+        ThrowLootBag(Vector2.zero);
+    }
+
+    public void Reset(){
+        Vector3 spawnPosition = GameManager.GetSpawnLocationFromController(controller.GetControllerName());
+        transform.position = spawnPosition;
+    }
+
+    public void StoreAllLoot(){
+        
+    }
 }

@@ -26,7 +26,12 @@ public class CharaController : MonoBehaviour
         character.Orientate(orientation);
         if (Input.GetButtonDown(fire))
             character.UseWeapon();
-        if (Input.GetButtonDown(sendBag))
+        if (Input.GetButtonDown(sendBag)){
+            if (character.HasLootBag())
+                character.ThrowLootBag(orientation);
+            else
+                character.TryGrabBag();
+        }
             character.SendBag();
     }
 
