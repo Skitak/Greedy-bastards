@@ -26,4 +26,6 @@ public class Character : BaseEntity
         Debug.Log("Looted " + treasure);
         loot.OnLootCollected();
     }
+
+    public void Reset(){}
 }
