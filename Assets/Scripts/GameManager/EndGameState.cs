@@ -8,6 +8,7 @@ public class EndGameState : GameState
     public GameObject endGameCanvas;
     public override void Enter(){
         endGameCanvas.SetActive(true);
+        GameManager.instance.enemyManager.StopSpawning();
     }
     public override void UpdateState(float delta){ }
     public override void Exit(){
