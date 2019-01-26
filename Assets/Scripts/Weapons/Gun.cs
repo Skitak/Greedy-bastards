@@ -27,13 +27,11 @@ public class Gun : Weapon {
         Vector3 spawningOffset = (Vector3) (direction.normalized / 1);
         BulletPool.instantiateBullet(this.transform.position + spawningOffset, velocity, travelTime, this.gameObject);
 
-        OnShootParticlesGo.transform.LookAt(this.transform.position + spawningOffset);
-        OnShootParticles.enableEmission = true;
-        OnShootParticles.Play();
-
-        Timer timer = new Timer(5f, delegate(){
-            print("hi");
-        });
+        if (OnShootParticles != null && OnShootParticlesGo != null){
+            OnShootParticlesGo.transform.LookAt(this.transform.position + spawningOffset);
+            OnShootParticles.enableEmission = true;
+            OnShootParticles.Play();
+        }
     }
 
 }

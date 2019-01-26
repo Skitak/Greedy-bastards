@@ -8,7 +8,7 @@ public abstract class Weapon : MonoBehaviour {
     public int maxAmmunitions = 10;
     public float fireRate = 0.5f;
     public float ammunitionRegenerationRate = 0.5f;
-    protected BaseCharacter owner;
+    // protected BaseCharacter owner;
     
     private Timer ammunitionRegenerationTimer;
     private Timer fireRateTimer;
@@ -29,7 +29,7 @@ public abstract class Weapon : MonoBehaviour {
     }
     protected virtual void Start() {
         ammunitions = startingAmmunitions;
-        owner = this.gameObject.GetComponent<BaseCharacter>();
+        // owner = this.gameObject.GetComponent<BaseCharacter>();
         ammunitionRegenerationTimer = new Timer(ammunitionRegenerationRate, delegate(){
             this.Ammunitions++;
         });

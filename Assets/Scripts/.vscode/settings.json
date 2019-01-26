@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/*.*.meta": true,
+        "**/*.mat": true,
+        "**/*.meta": true,
+        "**/*.unity": true,
+        "**/*.unityproj": true
+    }
+}
