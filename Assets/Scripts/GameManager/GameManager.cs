@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour {
     private GameState currentState;
     public static GameManager instance;
     public GameObject endGameCanvas;
+    public GameObject pauseCanvas;
     [HideInInspector]
     public GameObject[] players = new GameObject[4];
     private int globalLoot = 0;
