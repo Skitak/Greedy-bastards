@@ -16,7 +16,7 @@ public class BaseEntity : MonoBehaviour {
 
     private int health;
 
-    private void Start() {
+    protected virtual void Start() {
         health = maxHealth;
     }
 
@@ -88,6 +88,6 @@ public class BaseEntity : MonoBehaviour {
     }
     
     protected virtual void LootBagGrabbed() {
-        
+
     }
 }
