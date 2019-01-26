@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Character : BaseEntity
 {
-    public int maxLootCapacity = 500;
+    public int maxLootCapacity = 5;
     [HideInInspector]
     public int treasuresLooted;
     public Weapon weapon;
