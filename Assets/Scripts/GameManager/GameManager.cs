@@ -69,4 +69,9 @@ public class GameManager : MonoBehaviour {
                 instance.players[i].GetComponent<Character>().Reset();
         }
     }
+
+    public static Vector3 GetSpawnLocationFromController(string controller){
+        int playerNumber = instance.controllerToPlayerIndex[controller];
+        return instance.characterInitialSpawn[playerNumber].transform.position;
+    }
 }
