@@ -12,14 +12,14 @@ public class LootBag : MonoBehaviour
     bool grabbed = false;
     ArrayList potentialOwners = new ArrayList();
     GameObject owner;
-    Collider collider;
+    Collider myCollider;
     // public GameObject owner;
     // Timer timerTmpCatch = new Timer(0.5f, delegate(){
     //     owner = null;
     // });
     private void Start() {
         rigid = GetComponent<Rigidbody>();
-        collider = GetComponent<Collider>();
+        myCollider = GetComponent<Collider>();
         instance = this;
     }
     public float GetSlowPercentage (){
@@ -28,7 +28,7 @@ public class LootBag : MonoBehaviour
 
     public void Throw (Vector2 direction) {
         transform.localPosition = Vector3.up;
-        collider.enabled = true;
+        myCollider.enabled = true;
         spriteRenderer.enabled = true;
         transform.parent = null;
         potentialOwners.Remove(owner);
@@ -52,7 +52,7 @@ public class LootBag : MonoBehaviour
                     nonOwner.GetComponent<BaseEntity>().LootBagOutOfRange();
             }
             potentialOwners.Clear();
-            collider.enabled = false;
+            myCollider.enabled = false;
             return true;
         }
         return false;

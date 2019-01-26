@@ -75,4 +75,8 @@ public class GameManager : MonoBehaviour {
         int playerNumber = instance.controllerToPlayerIndex[controller];
         return instance.characterInitialSpawn[playerNumber].transform.position;
     }
+
+    public static int GetNumberOfPlayers(){
+        return instance.numberOfPlayers;
+    }
 }
