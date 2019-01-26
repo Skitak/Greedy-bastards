@@ -29,7 +29,7 @@ public class Gun : Weapon {
         BulletPool.instantiateBullet(this.transform.position + spawningOffset, velocity, this);
 
         if (OnShootParticles != null && OnShootParticlesGo != null){
-            OnShootParticlesGo.transform.LookAt(this.transform.position + spawningOffset);
+            //OnShootParticlesGo.transform.LookAt(this.transform.position + spawningOffset);
             OnShootParticles.enableEmission = true;
             OnShootParticles.Play();
         }

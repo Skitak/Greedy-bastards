@@ -10,6 +10,8 @@ public class WeaponAlignement : MonoBehaviour
     
     public GameObject weapon;
 
+    private Vector2 myOrientation;
+
     void Start()
     {
         
@@ -23,7 +25,13 @@ public class WeaponAlignement : MonoBehaviour
         else
             orientation = new Vector2(Input.GetAxis(horizontal2), Input.GetAxis(vertical2));*/
 
-        weapon.transform.Rotate ((Vector2)control.orientation);
+        //weapon.transform.Rotate ((Vector2)control.orientation);
+
+        //weapon.transform.position.Vector3.right = orientation;
+        /*
+        myOrientation = chara.GetOrientation ();
+        weapon.transform.Rotate ((Vector2) myOrientation);*/
+
         
     }
 }
