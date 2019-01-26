@@ -10,9 +10,8 @@ public class PlayerJoinState : GameState
     string playInput = "Play";
     ArrayList controllerUsed = new ArrayList();
     public override void Enter(){
-        Debug.Log("Entering joining phase");
     }
-    public override void Update(float delta){
+    public override void UpdateState(float delta){
         foreach (string controller in controllers) {
             if (Input.GetButtonDown(playInput + " " + controller)){
                 if (!controllerUsed.Contains(controller))
@@ -20,7 +19,6 @@ public class PlayerJoinState : GameState
                 else {
                     StartGame();
                 }
-
             }
         }
     }
@@ -29,7 +27,7 @@ public class PlayerJoinState : GameState
     }
 
     void StartGame() {
-        GameManager.ChangeState(new EnterPlayState());
+        GameManager.ChangeState(GameManager.instance.states.enterPlayState);
     }
 
     void PlayerEnteredGame(string controller) {

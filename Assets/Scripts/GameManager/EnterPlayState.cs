@@ -6,8 +6,11 @@ public class EnterPlayState : GameState
 {
     
     public override void Enter(){
-        GameManager.ChangeState(new PlayState());
+        // GameManager.ResetPlayers();
     }
-    public override void Update(float delta){}
-    public override void Exit(){}
+    public override void UpdateState(float delta){
+        GameManager.ChangeState(GameManager.instance.states.playState);
+    }
+    public override void Exit(){
+    }
 }

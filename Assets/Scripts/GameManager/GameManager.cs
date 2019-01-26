@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
     public bool startWithIntroductionScene = false;
-    public float endGameTime;
     public GameObject characterPrefab;
     public GameObject[] characterInitialSpawn;
     private GameState currentState;
     public static GameManager instance;
-    public GameObject endGameCanvas;
-    public GameObject pauseCanvas;
     [HideInInspector]
     public GameObject[] players = new GameObject[4];
+    public GameStateHolder states;
+    public bool isGamePaused = false;
     private int globalLoot = 0;
     private Dictionary<string, int> controllerToPlayerIndex = new Dictionary<string, int>();
     private int numberOfPlayers = 0;
@@ -23,13 +22,13 @@ public class GameManager : MonoBehaviour {
         DontDestroyOnLoad(this.gameObject);
         instance = this;
         if (startWithIntroductionScene)
-            currentState = new IntroductionState();        
+            currentState = states.introductionState;        
         else
-            currentState = new PlayerJoinState();      
-        currentState.Enter();  
+            currentState = states.playerJoinState;      
+        currentState.Enter();
     }
     void Update(){
-        currentState.Update(Time.deltaTime);
+        currentState.UpdateState(Time.deltaTime);
     }
 
     public static void ChangeState (GameState newState) {
@@ -47,8 +46,9 @@ public class GameManager : MonoBehaviour {
     }
 
     public void PlayAgain() {
-        endGameCanvas.SetActive(false);
-        ChangeState(new EnterPlayState());
+        Debug.Log("Reset game");
+        states.playState.Reset();
+        ChangeState(instance.states.enterPlayState);
     }
 
     public static int GetPlayerNumberFromController(string controller){
@@ -64,7 +64,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public static void ResetPlayers(){
-        for (int i = 0; i < 5; ++i) {
+        for (int i = 0; i < 4; ++i) {
             if (instance.players[i] != null)
                 instance.players[i].GetComponent<Character>().Reset();
         }

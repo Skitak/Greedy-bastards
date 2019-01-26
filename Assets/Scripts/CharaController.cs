@@ -14,7 +14,8 @@ public class CharaController : MonoBehaviour
     }
 
     void Update(){
-        if (controllerName == "none")
+        
+        if (controllerName == "none" || GameManager.instance.isGamePaused )
             return;
          direction = new Vector2(Input.GetAxis(horizontal), Input.GetAxis(vertical));
         if (controllerName == "keyboard")
