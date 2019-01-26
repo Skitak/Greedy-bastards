@@ -9,6 +9,9 @@ public class BaseEntity : MonoBehaviour {
     public Rigidbody rigid;
     public Sprite spriteBack, spriteFront;
     public SpriteRenderer spriteRenderer;
+
+    public GameObject newSprites;
+
     protected Vector2 orientation;
     protected LootBag lootBag;
     protected bool hasLootBag;
@@ -34,17 +37,25 @@ public class BaseEntity : MonoBehaviour {
             return;
         float modifiedSpeed = speed * (hasLootBag ? (1f - (lootBag.GetSlowPercentage() / 100f)) : 1);
         rigid.velocity = new Vector3 (direction.x, 0, direction.y) * modifiedSpeed;
-        ChangeSpriteOrientation();
+        
     }
 
     public virtual void Orientate(Vector2 orientation) {
         this.orientation = orientation;
+        ChangeSpriteOrientation();
 
     }
 
     void ChangeSpriteOrientation() {
-        spriteRenderer.flipX = orientation.x > 0;
-        spriteRenderer.sprite = orientation.y > 0 ? spriteBack : spriteFront;
+        /*spriteRenderer.flipX = orientation.x > 0;
+        spriteRenderer.sprite = orientation.y > 0 ? spriteBack : spriteFront;*/
+
+        if (newSprites.transform.localScale.x > 0 && orientation.x < 0){
+            SwapSprite();
+        }
+        else if (newSprites.transform.localScale.x  < 0 && orientation.x > 0){
+            SwapSprite();
+        }
     }
 
     protected virtual void Die() {
@@ -89,5 +100,22 @@ public class BaseEntity : MonoBehaviour {
     
     protected virtual void LootBagGrabbed() {
 
+    }
+
+    public Vector2 GetOrientation ()
+    {
+        return orientation;
+    }
+
+    private void WeaponOrientation (GameObject weaponHolder)
+    {
+        
+    }
+
+    void SwapSprite(){
+        float xSprite = -newSprites.transform.localScale.x;
+        float ySprite = newSprites.transform.localScale.y;
+        float zSprite = newSprites.transform.localScale.z;
+        newSprites.transform.localScale = new Vector3(xSprite, ySprite, zSprite);
     }
 }
