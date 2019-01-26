@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LifeTestSliders : MonoBehaviour
 {
-
+    bool offseted = false;
     public float maxLife = 15f;
 
     public Slider slider;
@@ -44,13 +44,21 @@ public class LifeTestSliders : MonoBehaviour
    
     void Start()
     {
-        
         life = maxLife;
-
+        
     }
 
     void Update()
     { 
+            if (charaController.GetControllerName() != "none" && !offseted)
+        {
+            playerNumber = GameManager.GetPlayerNumberFromController(charaController.GetControllerName());
+            print (playerNumber);
+            positionGo.transform.position += new Vector3 (0, - offset * (playerNumber - 1),0);
+            offseted = true;
+
+        }
+     
         
         slider.value = (life/maxLife);
 
