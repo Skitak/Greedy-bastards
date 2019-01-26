@@ -40,6 +40,11 @@ public class CharaController : MonoBehaviour
         sendBag = "Throw " + name;
     }
 
+    public string GetControllerName ()
+    {
+        return controllerName;
+    }
+
     Vector2 getKeyboardOrientation(){
         Vector3 CharacterPosition = Camera.main.WorldToScreenPoint(character.gameObject.transform.position);
         return Input.mousePosition - CharacterPosition;
