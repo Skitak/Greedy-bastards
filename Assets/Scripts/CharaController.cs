@@ -8,7 +8,7 @@ public class CharaController : MonoBehaviour
     string controllerName = "none";
 
     string horizontal, vertical, horizontal2, vertical2, fire, sendBag;
-
+    Vector2 direction, orientation;
     void Start(){
         character = gameObject.GetComponent<Character>();
     }
@@ -16,8 +16,11 @@ public class CharaController : MonoBehaviour
     void Update(){
         if (controllerName == "none")
             return;
-        Vector2 direction = new Vector2(Input.GetAxis(horizontal), Input.GetAxis(vertical));
-        Vector2 orientation = new Vector2(Input.GetAxis(horizontal2), Input.GetAxis(vertical2));
+         direction = new Vector2(Input.GetAxis(horizontal), Input.GetAxis(vertical));
+        if (controllerName == "keyboard")
+            orientation = getKeyboardOrientation();
+        else
+            orientation = new Vector2(Input.GetAxis(horizontal2), Input.GetAxis(vertical2));
         character.Move(direction);
         character.Orientate(orientation);
         if (Input.GetButtonDown(fire))
@@ -34,6 +37,11 @@ public class CharaController : MonoBehaviour
         vertical2 = "Vertical2 " + name;
         fire = "Use Weapon " + name;
         sendBag = "Throw " + name;
+    }
+
+    Vector2 getKeyboardOrientation(){
+        Vector3 CharacterPosition = Camera.main.WorldToScreenPoint(character.gameObject.transform.position);
+        return Input.mousePosition - CharacterPosition;
     }
 
 }

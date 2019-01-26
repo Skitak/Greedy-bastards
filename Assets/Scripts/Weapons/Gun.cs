@@ -24,7 +24,7 @@ public class Gun : Weapon {
     {
         --Ammunitions;
         Vector2 velocity = direction.normalized * speed;
-        Vector3 spawningOffset = (Vector3) (direction.normalized / 1);
+        Vector3 spawningOffset = new Vector3 (direction.normalized.x, 0, direction.normalized.y);
         BulletPool.instantiateBullet(this.transform.position + spawningOffset, velocity, travelTime, this.gameObject);
 
         if (OnShootParticles != null && OnShootParticlesGo != null){
