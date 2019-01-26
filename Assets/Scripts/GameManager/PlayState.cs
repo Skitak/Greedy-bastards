@@ -13,7 +13,8 @@ public class PlayState : GameState
     void Start () 
     {
         endGameTimer = new Timer(endGameTime, EndGame);
-        endGameTimer.OnTimerUpdate += UpdateTimerText;
+        if (finalTimerText != null)
+            endGameTimer.OnTimerUpdate += UpdateTimerText;
     }
 
     public override void Enter()
