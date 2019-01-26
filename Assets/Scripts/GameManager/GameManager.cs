@@ -46,6 +46,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void PlayAgain() {
+        globalLoot = 0;
         Debug.Log("Reset game");
         states.playState.Reset();
         ChangeState(instance.states.enterPlayState);

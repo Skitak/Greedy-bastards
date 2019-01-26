@@ -32,7 +32,6 @@ public class CharaController : MonoBehaviour
             else
                 character.TryGrabBag();
         }
-            character.SendBag();
     }
 
     public void SetController(string name){

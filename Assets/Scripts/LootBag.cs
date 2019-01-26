@@ -76,4 +76,9 @@ public class LootBag : MonoBehaviour
             potentialOwners.Remove(other.gameObject);
         }
     }
+
+    public void StoreAllLoot() {
+        GameManager.instance.GlobalLoot += totalLoot;
+        totalLoot = 0;
+    }
 }

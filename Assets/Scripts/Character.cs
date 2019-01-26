@@ -14,17 +14,12 @@ public class Character : BaseEntity
         weapon.tryUse(this.orientation);   
     }
 
-    public void SendBag() {
-        // Send the bag
-    }
-
     public void OnLootCollide(Loot loot){
         if (treasuresLooted >= maxLootCapacity )
         return;
         int treasure = (int)Mathf.Min ( maxLootCapacity - treasuresLooted, loot.value);
         // Now do things with that treasure value, like UI Things
         treasuresLooted += treasure;
-        Debug.Log("Looted " + treasure);
         loot.OnLootCollected();
     }
 
@@ -38,6 +33,14 @@ public class Character : BaseEntity
     }
 
     public void StoreAllLoot(){
-        
+        if (hasLootBag)
+            lootBag.StoreAllLoot();
+        GameManager.instance.GlobalLoot += treasuresLooted;
+        treasuresLooted = 0;
+    }
+
+    protected override void LootBagGrabbed(){
+        lootBag.FillBag(treasuresLooted);
+        treasuresLooted = 0;
     }
 }

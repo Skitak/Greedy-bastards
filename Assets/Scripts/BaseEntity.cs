@@ -60,6 +60,8 @@ public class BaseEntity : MonoBehaviour {
     public void TryGrabBag(){
         if (lootBag != null)
             hasLootBag = lootBag.TryGrab(this.gameObject);
+        if (hasLootBag)
+            LootBagGrabbed();
     }
 
     public void ThrowLootBag(Vector2 orientation){
@@ -85,4 +87,7 @@ public class BaseEntity : MonoBehaviour {
         return isDead;
     }
     
+    protected virtual void LootBagGrabbed() {
+        
+    }
 }
