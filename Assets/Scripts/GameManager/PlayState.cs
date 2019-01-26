@@ -14,7 +14,11 @@ public class PlayState : GameState
         GameManager.instance.GlobalLoot = 0;
         GameManager.ResetPlayers();
     }
-    public override void Update(float delta){}
+    public override void Update(float delta){
+        if (Input.GetKeyDown("Pause")){
+            //
+        }
+    }
     public override void Exit(){
         Debug.Log("Exiting playing phase");
     }

@@ -7,7 +7,7 @@ public class EndGameState : GameState
     // Start is called before the first frame update
       
     public override void Enter(){
-        GameManager.ChangeState(new PlayState());
+        GameManager.instance.endGameCanvas.SetActive(true);
     }
     public override void Update(float delta){}
     public override void Exit(){}
