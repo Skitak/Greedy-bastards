@@ -28,11 +28,10 @@ public class BulletPool : MonoBehaviour {
         instance.pool.Push(bullet);
     }
 
-    public static void instantiateBullet(Vector3 position, Vector2 velocity, float stopTime, GameObject owner){
+    public static void instantiateBullet(Vector3 position, Vector2 velocity, Gun owner){
         Bullet bullet = instance.pool.Pop();
-        bullet.owner = owner;
         bullet.transform.position = position;
         bullet.gameObject.SetActive(true);
-        bullet.fire(velocity, stopTime);
+        bullet.fire(velocity, owner);
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Weapon : MonoBehaviour {
 
+    public int damages = 1;
     public int startingAmmunitions = 2;
     public int maxAmmunitions = 10;
     public float fireRate = 0.5f;

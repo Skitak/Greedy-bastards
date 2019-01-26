@@ -8,7 +8,8 @@ public class Gun : Weapon {
     public float range = 10f;
     [Range(0,1)]
     public float accuracy = 1f;
-    protected float travelTime;
+    [HideInInspector]
+    public float travelTime;
     // private Player player;
 
     //Visual Effects
@@ -25,7 +26,7 @@ public class Gun : Weapon {
         --Ammunitions;
         Vector2 velocity = direction.normalized * speed;
         Vector3 spawningOffset = new Vector3 (direction.normalized.x, 0, direction.normalized.y);
-        BulletPool.instantiateBullet(this.transform.position + spawningOffset, velocity, travelTime, this.gameObject);
+        BulletPool.instantiateBullet(this.transform.position + spawningOffset, velocity, this);
 
         if (OnShootParticles != null && OnShootParticlesGo != null){
             OnShootParticlesGo.transform.LookAt(this.transform.position + spawningOffset);

@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour {
     private static GameManager instance;
     [HideInInspector]
     public GameObject[] players = new GameObject[4];
-    // private Dictionary<string, int> controllerToPlayerIndex;
+    private Dictionary<string, int> controllerToPlayerIndex = new Dictionary<string, int>();
     private int numberOfPlayers = 0;
 
     void Start() {
@@ -37,9 +37,14 @@ public class GameManager : MonoBehaviour {
 
     public static void PlayerDied(string controller){}
     public static void FirstSpawnPlayer(string controller){
+        instance.controllerToPlayerIndex[controller] = instance.numberOfPlayers; 
         Vector3 spawnPosition = instance.characterInitialSpawn[++instance.numberOfPlayers].transform.localPosition;
         instance.players[instance.numberOfPlayers - 1] = Instantiate(instance.characterPrefab, spawnPosition, Quaternion.identity) as GameObject;
         instance.players[instance.numberOfPlayers - 1].GetComponent<CharaController>().SetController(controller);
 
+    }
+
+    public static int GetPlayerNumberFromController(){
+        return instance.controllerToPlayerIndex[controller] + 1;
     }
 }

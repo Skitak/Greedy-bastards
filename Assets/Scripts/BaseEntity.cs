@@ -13,17 +13,22 @@ public class BaseEntity : MonoBehaviour {
 
     private int health;
 
+    private void Start() {
+        health = maxHealth;
+    }
+
     public int Health {
         get { return health;}
         set {
             health = value; 
-            if (value == 0)
+            if (value <= 0)
                 Die();
         }
     }
 
     public virtual void Move(Vector2 direction) {
         rigid.velocity = new Vector3 (direction.x, 0, direction.y) * speed;
+        ChangeSpriteOrientation();
     }
 
     public virtual void Orientate(Vector2 orientation) {
@@ -38,5 +43,10 @@ public class BaseEntity : MonoBehaviour {
 
     protected virtual void Die() {
         Destroy(this.gameObject);
+    }
+
+    public virtual void Hit(int damages){
+        Health -= damages;
+        //Activate animation
     }
 }
