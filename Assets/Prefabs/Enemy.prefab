@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96881e5888ac86c41b3b3fc7fae9dc9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 1
   speed: 10
   rigid: {fileID: 7520824563256677240}
   newSprites: {fileID: 7520824561907908406}
