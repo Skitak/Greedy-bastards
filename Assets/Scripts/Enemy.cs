@@ -23,6 +23,7 @@ public class Enemy : BaseEntity {
     private bool isAttacking, hasSpawned;
     private Timer attackTimer;
     private Timer attackCooldownTimer ;
+    private bool isStun;
     ArrayList playerInRange;
     enum EnemyStates {
         ROAM,CHASE,FLEE
@@ -51,7 +52,7 @@ public class Enemy : BaseEntity {
             LookForTarget();
     }
     private void Update() {
-        if (IsDead())
+        if (IsDead() || isStun)
             return;
         animator.SetFloat("OrientationY", orientation.y);
         animator.SetFloat("Speed", navMeshAgent.velocity.magnitude);
@@ -137,6 +138,14 @@ public class Enemy : BaseEntity {
     }   
     void AttackCooldownFinished() {
         isAttacking = false;
+    }
+
+    public override void Hit (int damage)
+    {
+        isStun = true;
+        base.Hit(damage);
+        animator.SetTrigger("Hit");
+
     }
     
 }

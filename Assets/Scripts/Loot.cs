@@ -20,8 +20,8 @@ public class Loot : MonoBehaviour
 
     void Start ()
     {
-        timer = new Timer (despawnTime, delegate () {Destroy(this.gameObject);});
         timer.Play();
+        timer = new Timer (despawnTime, delegate () {Destroy(this.gameObject);});
     }
 
 }
