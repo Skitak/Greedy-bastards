@@ -145,6 +145,9 @@ public class Enemy : BaseEntity {
         isStun = true;
         base.Hit(damage);
         animator.SetTrigger("Hit");
+        new Timer(.2f, delegate(){
+            isStun = false;
+        });
 
     }
     
