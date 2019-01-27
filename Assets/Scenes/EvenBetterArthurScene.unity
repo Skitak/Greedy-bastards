@@ -40326,19 +40326,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1625732186, guid: f47e42bb86de7bf4397bb352a65b4682, type: 3}
       propertyPath: highSpawnRateB
-      value: 0.02
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1625732186, guid: f47e42bb86de7bf4397bb352a65b4682, type: 3}
       propertyPath: highSpawnRateA
-      value: 0.05
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1625732186, guid: f47e42bb86de7bf4397bb352a65b4682, type: 3}
       propertyPath: lowSpawnRateA
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1625732186, guid: f47e42bb86de7bf4397bb352a65b4682, type: 3}
       propertyPath: lowSpawnRateB
-      value: 0.3
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 883293360273923668, guid: f47e42bb86de7bf4397bb352a65b4682, type: 3}
