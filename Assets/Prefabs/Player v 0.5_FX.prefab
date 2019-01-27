@@ -10000,7 +10000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9942982659ee643aa4124da2e4f1ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 100
   speed: 5
   rigid: {fileID: 586945018}
   newSprites: {fileID: 709434490}
@@ -10034,10 +10034,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbaac7eaf8bb08429b8e5fd1b0f9c9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damages: 1
+  damages: 5
   startingAmmunitions: 2
   maxAmmunitions: 10
-  fireRate: 0.1
+  fireRate: 0.3
   ammunitionRegenerationRate: 0.1
   speed: 50
   range: 10
