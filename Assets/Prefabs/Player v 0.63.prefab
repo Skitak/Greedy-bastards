@@ -404,7 +404,7 @@ MonoBehaviour:
   speed: 5
   rigid: {fileID: 586945018}
   newSprites: {fileID: 1559868384}
-  animator: {fileID: 1559868386}
+  animator: {fileID: 0}
   source: {fileID: 586945016}
   maxLootCapacity: 5
   treasuresLooted: 0
@@ -6228,7 +6228,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1559868385}
-  - component: {fileID: 1559868386}
   m_Layer: 9
   m_Name: Sprites (1)
   m_TagString: Untagged
@@ -6255,25 +6254,6 @@ Transform:
   m_Father: {fileID: 586945020}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1559868386
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1559868384}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 36788b0c5187d624d834207805be0625, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1618454960
 GameObject:
   m_ObjectHideFlags: 0
