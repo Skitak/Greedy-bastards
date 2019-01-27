@@ -1,7 +1,24 @@
 fileFormatVersion: 2
 guid: 15c81a5edce56794babaca889c6fd681
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: zombie4 Alien Spreadsheet_0
+    21300002: zombie4 Alien Spreadsheet_1
+    21300004: zombie4 Alien Spreadsheet_2
+    21300006: zombie4 Alien Spreadsheet_3
+    21300008: zombie4 Alien Spreadsheet_4
+    21300010: zombie4 Alien Spreadsheet_5
+    21300012: zombie4 Alien Spreadsheet_6
+    21300014: zombie4 Alien Spreadsheet_7
+    21300016: zombie4 Alien Spreadsheet_8
+    21300018: zombie4 Alien Spreadsheet_9
+    21300020: zombie4 Alien Spreadsheet_10
+    21300022: zombie4 Alien Spreadsheet_11
+    21300024: zombie4 Alien Spreadsheet_12
+    21300026: zombie4 Alien Spreadsheet_13
+    21300028: zombie4 Alien Spreadsheet_14
+    21300030: zombie4 Alien Spreadsheet_15
+    21300032: zombie4 Alien Spreadsheet_16
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +57,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +86,360 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1938
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bace9e7f3314054e88f75b59b970304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1211
+        width: 1975
+        height: 2092
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6359800a0e5f20049b592a8dfd425cc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_2
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1159
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7364e572d8e78734e81fa85f15165b33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_3
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 335
+        width: 906
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a086f9696daac409b372c4d15a9321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 649
+        width: 376
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cc33dd73835ba409789b4f563b8ba9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_5
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 827
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5682eb4d7bf42948ae4817ce76f7a77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_6
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 452
+        width: 532
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63697d692f66de43a4486cbb12f82df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 636
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb4ed311b11d1e4baf565b725161472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 572
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b79540eb7d8c734ebca0b73bcd409c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_9
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 562
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078886077652fae468b5d3cec6d7b82c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 545
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83feba29fd4a4a34bb5709b997028244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 542
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ccdad3e0117f442a991c4fd4a21d17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 342
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5729af77bba451642a3a3dacb28b2d1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_13
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 201
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd831cddb9eb0e44aab2db34229cc73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_14
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 511
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbfd20f98ace9a48b6fb4befedc7614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_15
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 129
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362894fc52ff4db4c9f8aae3d6bd3e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie4 Alien Spreadsheet_16
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 45
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dabe8c7701ba34a87a3fafa3653693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

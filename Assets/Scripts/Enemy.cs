@@ -12,33 +12,54 @@ public class Enemy : BaseEntity {
     public float roamFrequency = 5f;
     public float searchRadius;
     public LayerMask searchMask;
+    public int damages;
+    public float attackRange;
+    public bool showAttackRange;
     private GameObject target;
     private Vector3 roamTarget;
     private Timer searchTimer;
     private Timer roamTimer;
     private Collider myCollider;
+    private bool isAttacking;
+    private Timer attackTimer;
+    private Timer attackCooldownTimer ;
     ArrayList playerInRange;
     enum EnemyStates {
         ROAM,CHASE,FLEE
     }
     private EnemyStates state = EnemyStates.ROAM;
 
+    void OnDrawGizmosSelected()
+    {
+        // Draw a yellow sphere at the transform's position
+        Gizmos.color = Color.yellow;
+        if (showAttackRange)
+            Gizmos.DrawSphere(transform.position, attackRange);
+
+    }
     protected override void Start() {
         base.Start();
         searchTimer = new Timer(searchFrequency, LookForTarget);
         roamTimer = new Timer(roamFrequency, RoamAgain);
         navMeshAgent = GetComponent<NavMeshAgent>();
         myCollider = GetComponent<Collider>();
+        attackTimer = new Timer(0.6f, AttackFinished);
+        attackCooldownTimer = new Timer (0.6f, AttackCooldownFinished) ;
         LookForTarget();
     }
     private void Update() {
         if (IsDead())
             return;
+        animator.SetFloat("OrientationY", orientation.y);
+        animator.SetFloat("Speed", navMeshAgent.velocity.magnitude);
         Vector3 destination;
         if (state == EnemyStates.FLEE)
             destination = GetFarAwayFromPlayers();
-        else if (state == EnemyStates.CHASE)
+        else if (state == EnemyStates.CHASE){
             destination = target.transform.position;
+            if (target.tag == "Player" && Vector3.Distance(destination, transform.position) < attackRange && !isAttacking )
+                TryAttacking();
+        }
         else
             destination = roamTarget;
         navMeshAgent.SetDestination(destination);
@@ -47,6 +68,7 @@ public class Enemy : BaseEntity {
     protected override void Die(){
         base.Die();
         navMeshAgent.SetDestination(transform.position);
+        animator.SetBool("Dead", true);
         (Instantiate(loot, transform.position, Quaternion.identity) as GameObject).GetComponent<Loot>().value = lootValue;
         searchTimer.Pause();
         roamTimer.Pause();
@@ -54,6 +76,9 @@ public class Enemy : BaseEntity {
         // Destroy(this.gameObject);
     }
     void LookForTarget(){
+        searchTimer.ResetPlay();
+        if (isAttacking)
+            return;
         target = null;
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, searchRadius, searchMask);
         for (int i = 0; i < hitColliders.Length ; ++i){
@@ -74,7 +99,6 @@ public class Enemy : BaseEntity {
         }
         else 
             state = EnemyStates.CHASE;
-        searchTimer.ResetPlay();
     }
 
     void RoamAgain(){
@@ -97,4 +121,19 @@ public class Enemy : BaseEntity {
         oppositeDirection.y = 0;
         return oppositeDirection + transform.position;
     }
+
+    void TryAttacking(){
+        isAttacking = true;
+        animator.SetTrigger("Attack");
+        attackTimer.ResetPlay();
+    }
+    void AttackFinished() {
+        if (Vector3.Distance(target.transform.position, transform.position) < attackRange)
+            target.GetComponent<Character>().Health -= damages;
+        attackCooldownTimer.ResetPlay();
+    }   
+    void AttackCooldownFinished() {
+        isAttacking = false;
+    }
+    
 }

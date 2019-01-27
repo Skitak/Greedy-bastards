@@ -7,8 +7,6 @@ public class BaseEntity : MonoBehaviour {
     public int maxHealth = 10;
     public float speed;
     public Rigidbody rigid;
-    public Sprite spriteBack, spriteFront;
-    public SpriteRenderer spriteRenderer;
 
     public GameObject newSprites;
 
