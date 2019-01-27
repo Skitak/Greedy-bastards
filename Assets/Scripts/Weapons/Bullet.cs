@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour {
         rigid.velocity = this.velocity;
     }
     private void OnCollisionEnter2D(Collision2D other) {
-
+        particle.Play();
         registerToBulletPool();
     }
 
