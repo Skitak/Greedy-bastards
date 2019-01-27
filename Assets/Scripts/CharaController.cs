@@ -58,7 +58,7 @@ public class CharaController : MonoBehaviour
 
     bool CheckFire(){
         if(controllerName == "keyboard")
-            return Input.GetButtonDown(fire);
+            return Input.GetButton(fire);
         if (fired && Input.GetAxis(fire) < 0.5)
             return fired = false;
         else if (!fired && Input.GetAxis(fire) > 0.5){
