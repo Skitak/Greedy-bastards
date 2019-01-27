@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startWithIntroductionScene: 0
-  characterPrefab: {fileID: 586945014, guid: 574cbeac7429f0a4d8c26d1bd1466655, type: 3}
+  characterPrefab: {fileID: 586945014, guid: 5839f80b885232d43a8e49fc8368737b, type: 3}
   characterInitialSpawn:
   - {fileID: 883293361528520820}
   - {fileID: 883293360172802040}
@@ -299,11 +299,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowEnemySpawnDistance: 20
   mediumEnemySpawnDistance: 40
-  lowEnemyPrefab: {fileID: 7520824563256677241, guid: 99283347dcae40546acf846986db5191,
+  lowEnemyPrefab: {fileID: 5863938896725723654, guid: c1c37a1078f433d48bc53a6517e0ec3e,
     type: 3}
-  mediumEnemyPrefab: {fileID: 7520824563256677241, guid: ab29521591369b64e879c36598523bc6,
+  mediumEnemyPrefab: {fileID: 7437338911165128385, guid: e4cded240f97b9c478316ba3ea513193,
     type: 3}
-  highEnemyPrefab: {fileID: 7520824563256677241, guid: 12b3056abd0fd54419d3733ad42bb858,
+  highEnemyPrefab: {fileID: 7520824563256677241, guid: 99283347dcae40546acf846986db5191,
     type: 3}
   lowSpawnRateA: 2
   lowSpawnRateB: 3
