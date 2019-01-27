@@ -138,7 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f18e33320c9324aa9bf3ae944615a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endGameTime: 4
+  finalTimerText: {fileID: 0}
+  endGameTime: 1000
 --- !u!114 &883293360140169230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,6 +207,7 @@ GameObject:
   - component: {fileID: 883293360273923665}
   - component: {fileID: 883293360273923668}
   - component: {fileID: 883293360273923667}
+  - component: {fileID: 1625732186}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -242,8 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startWithIntroductionScene: 0
-  characterPrefab: {fileID: 920222544484463056, guid: d8be19fac41df09469b7f4fab30430f5,
-    type: 3}
+  characterPrefab: {fileID: 586945014, guid: 574cbeac7429f0a4d8c26d1bd1466655, type: 3}
   characterInitialSpawn:
   - {fileID: 883293361528520820}
   - {fileID: 883293360172802040}
@@ -255,6 +256,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   states: {fileID: 883293360140169218}
+  enemyManager: {fileID: 1625732186}
   isGamePaused: 0
 --- !u!114 &883293360273923668
 MonoBehaviour:
@@ -283,6 +285,34 @@ MonoBehaviour:
   startingBulletPoolSize: 50
   bulletPrefab: {fileID: 4205118146664470542, guid: 8ad7c6e41fd529f42bc442a4775804e4,
     type: 3}
+--- !u!114 &1625732186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883293360273923664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a85ffcb00375294cb48f01be6adce8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lowEnemySpawnDistance: 20
+  mediumEnemySpawnDistance: 40
+  lowEnemyPrefab: {fileID: 7520824563256677241, guid: 99283347dcae40546acf846986db5191,
+    type: 3}
+  mediumEnemyPrefab: {fileID: 7520824563256677241, guid: ab29521591369b64e879c36598523bc6,
+    type: 3}
+  highEnemyPrefab: {fileID: 7520824563256677241, guid: 12b3056abd0fd54419d3733ad42bb858,
+    type: 3}
+  lowSpawnRateA: 2
+  lowSpawnRateB: 3
+  highSpawnRateA: 0.5
+  highSpawnRateB: 0.2
+  maxSpawnRateDistance: 100
+  maxSpawnDistanceFromGroup: 20
+  showLowDistance: 0
+  showMediumDistance: 0
 --- !u!1 &883293361042847886
 GameObject:
   m_ObjectHideFlags: 0

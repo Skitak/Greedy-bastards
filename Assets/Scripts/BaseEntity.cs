@@ -23,6 +23,7 @@ public class BaseEntity : MonoBehaviour {
 
     protected virtual void Start() {
         health = maxHealth;
+        animator.SetBool("Dead", true);
     }
 
     public int Health {

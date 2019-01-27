@@ -1,0 +1,3312 @@
+fileFormatVersion: 2
+guid: 2cb14021f0b67f741a624df6b2f78f9d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: zombie1 Classique Spreadsheet 1_0
+    21300002: zombie1 Classique Spreadsheet 1_1
+    21300004: zombie1 Classique Spreadsheet 1_2
+    21300006: zombie1 Classique Spreadsheet 1_3
+    21300008: zombie1 Classique Spreadsheet 1_4
+    21300010: zombie1 Classique Spreadsheet 1_5
+    21300012: zombie1 Classique Spreadsheet 1_6
+    21300014: zombie1 Classique Spreadsheet 1_7
+    21300016: zombie1 Classique Spreadsheet 1_8
+    21300018: zombie1 Classique Spreadsheet 1_9
+    21300020: zombie1 Classique Spreadsheet 1_10
+    21300022: zombie1 Classique Spreadsheet 1_11
+    21300024: zombie1 Classique Spreadsheet 1_12
+    21300026: zombie1 Classique Spreadsheet 1_13
+    21300028: zombie1 Classique Spreadsheet 1_14
+    21300030: zombie1 Classique Spreadsheet 1_15
+    21300032: zombie1 Classique Spreadsheet 1_16
+    21300034: zombie1 Classique Spreadsheet 1_17
+    21300036: zombie1 Classique Spreadsheet 1_18
+    21300038: zombie1 Classique Spreadsheet 1_19
+    21300040: zombie1 Classique Spreadsheet 1_20
+    21300042: zombie1 Classique Spreadsheet 1_21
+    21300044: zombie1 Classique Spreadsheet 1_22
+    21300046: zombie1 Classique Spreadsheet 1_23
+    21300048: zombie1 Classique Spreadsheet 1_24
+    21300050: zombie1 Classique Spreadsheet 1_25
+    21300052: zombie1 Classique Spreadsheet 1_26
+    21300054: zombie1 Classique Spreadsheet 1_27
+    21300056: zombie1 Classique Spreadsheet 1_28
+    21300058: zombie1 Classique Spreadsheet 1_29
+    21300060: zombie1 Classique Spreadsheet 1_30
+    21300062: zombie1 Classique Spreadsheet 1_31
+    21300064: zombie1 Classique Spreadsheet 1_32
+    21300066: zombie1 Classique Spreadsheet 1_33
+    21300068: zombie1 Classique Spreadsheet 1_34
+    21300070: zombie1 Classique Spreadsheet 1_35
+    21300072: zombie1 Classique Spreadsheet 1_36
+    21300074: zombie1 Classique Spreadsheet 1_37
+    21300076: zombie1 Classique Spreadsheet 1_38
+    21300078: zombie1 Classique Spreadsheet 1_39
+    21300080: zombie1 Classique Spreadsheet 1_40
+    21300082: zombie1 Classique Spreadsheet 1_41
+    21300084: zombie1 Classique Spreadsheet 1_42
+    21300086: zombie1 Classique Spreadsheet 1_43
+    21300088: zombie1 Classique Spreadsheet 1_44
+    21300090: zombie1 Classique Spreadsheet 1_45
+    21300092: zombie1 Classique Spreadsheet 1_46
+    21300094: zombie1 Classique Spreadsheet 1_47
+    21300096: zombie1 Classique Spreadsheet 1_48
+    21300098: zombie1 Classique Spreadsheet 1_49
+    21300100: zombie1 Classique Spreadsheet 1_50
+    21300102: zombie1 Classique Spreadsheet 1_51
+    21300104: zombie1 Classique Spreadsheet 1_52
+    21300106: zombie1 Classique Spreadsheet 1_53
+    21300108: zombie1 Classique Spreadsheet 1_54
+    21300110: zombie1 Classique Spreadsheet 1_55
+    21300112: zombie1 Classique Spreadsheet 1_56
+    21300114: zombie1 Classique Spreadsheet 1_57
+    21300116: zombie1 Classique Spreadsheet 1_58
+    21300118: zombie1 Classique Spreadsheet 1_59
+    21300120: zombie1 Classique Spreadsheet 1_60
+    21300122: zombie1 Classique Spreadsheet 1_61
+    21300124: zombie1 Classique Spreadsheet 1_62
+    21300126: zombie1 Classique Spreadsheet 1_63
+    21300128: zombie1 Classique Spreadsheet 1_64
+    21300130: zombie1 Classique Spreadsheet 1_65
+    21300132: zombie1 Classique Spreadsheet 1_66
+    21300134: zombie1 Classique Spreadsheet 1_67
+    21300136: zombie1 Classique Spreadsheet 1_68
+    21300138: zombie1 Classique Spreadsheet 1_69
+    21300140: zombie1 Classique Spreadsheet 1_70
+    21300142: zombie1 Classique Spreadsheet 1_71
+    21300144: zombie1 Classique Spreadsheet 1_72
+    21300146: zombie1 Classique Spreadsheet 1_73
+    21300148: zombie1 Classique Spreadsheet 1_74
+    21300150: zombie1 Classique Spreadsheet 1_75
+    21300152: zombie1 Classique Spreadsheet 1_76
+    21300154: zombie1 Classique Spreadsheet 1_77
+    21300156: zombie1 Classique Spreadsheet 1_78
+    21300158: zombie1 Classique Spreadsheet 1_79
+    21300160: zombie1 Classique Spreadsheet 1_80
+    21300162: zombie1 Classique Spreadsheet 1_81
+    21300164: zombie1 Classique Spreadsheet 1_82
+    21300166: zombie1 Classique Spreadsheet 1_83
+    21300168: zombie1 Classique Spreadsheet 1_84
+    21300170: zombie1 Classique Spreadsheet 1_85
+    21300172: zombie1 Classique Spreadsheet 1_86
+    21300174: zombie1 Classique Spreadsheet 1_87
+    21300176: zombie1 Classique Spreadsheet 1_88
+    21300178: zombie1 Classique Spreadsheet 1_89
+    21300180: zombie1 Classique Spreadsheet 1_90
+    21300182: zombie1 Classique Spreadsheet 1_91
+    21300184: zombie1 Classique Spreadsheet 1_92
+    21300186: zombie1 Classique Spreadsheet 1_93
+    21300188: zombie1 Classique Spreadsheet 1_94
+    21300190: zombie1 Classique Spreadsheet 1_95
+    21300192: zombie1 Classique Spreadsheet 1_96
+    21300194: zombie1 Classique Spreadsheet 1_97
+    21300196: zombie1 Classique Spreadsheet 1_98
+    21300198: zombie1 Classique Spreadsheet 1_99
+    21300200: zombie1 Classique Spreadsheet 1_100
+    21300202: zombie1 Classique Spreadsheet 1_101
+    21300204: zombie1 Classique Spreadsheet 1_102
+    21300206: zombie1 Classique Spreadsheet 1_103
+    21300208: zombie1 Classique Spreadsheet 1_104
+    21300210: zombie1 Classique Spreadsheet 1_105
+    21300212: zombie1 Classique Spreadsheet 1_106
+    21300214: zombie1 Classique Spreadsheet 1_107
+    21300216: zombie1 Classique Spreadsheet 1_108
+    21300218: zombie1 Classique Spreadsheet 1_109
+    21300220: zombie1 Classique Spreadsheet 1_110
+    21300222: zombie1 Classique Spreadsheet 1_111
+    21300224: zombie1 Classique Spreadsheet 1_112
+    21300226: zombie1 Classique Spreadsheet 1_113
+    21300228: zombie1 Classique Spreadsheet 1_114
+    21300230: zombie1 Classique Spreadsheet 1_115
+    21300232: zombie1 Classique Spreadsheet 1_116
+    21300234: zombie1 Classique Spreadsheet 1_117
+    21300236: zombie1 Classique Spreadsheet 1_118
+    21300238: zombie1 Classique Spreadsheet 1_119
+    21300240: zombie1 Classique Spreadsheet 1_120
+    21300242: zombie1 Classique Spreadsheet 1_121
+    21300244: zombie1 Classique Spreadsheet 1_122
+    21300246: zombie1 Classique Spreadsheet 1_123
+    21300248: zombie1 Classique Spreadsheet 1_124
+    21300250: zombie1 Classique Spreadsheet 1_125
+    21300252: zombie1 Classique Spreadsheet 1_126
+    21300254: zombie1 Classique Spreadsheet 1_127
+    21300256: zombie1 Classique Spreadsheet 1_128
+    21300258: zombie1 Classique Spreadsheet 1_129
+    21300260: zombie1 Classique Spreadsheet 1_130
+    21300262: zombie1 Classique Spreadsheet 1_131
+    21300264: zombie1 Classique Spreadsheet 1_132
+    21300266: zombie1 Classique Spreadsheet 1_133
+    21300268: zombie1 Classique Spreadsheet 1_134
+    21300270: zombie1 Classique Spreadsheet 1_135
+    21300272: zombie1 Classique Spreadsheet 1_136
+    21300274: zombie1 Classique Spreadsheet 1_137
+    21300276: zombie1 Classique Spreadsheet 1_138
+    21300278: zombie1 Classique Spreadsheet 1_139
+    21300280: zombie1 Classique Spreadsheet 1_140
+    21300282: zombie1 Classique Spreadsheet 1_141
+    21300284: zombie1 Classique Spreadsheet 1_142
+    21300286: zombie1 Classique Spreadsheet 1_143
+    21300288: zombie1 Classique Spreadsheet 1_144
+    21300290: zombie1 Classique Spreadsheet 1_145
+    21300292: zombie1 Classique Spreadsheet 1_146
+    21300294: zombie1 Classique Spreadsheet 1_147
+    21300296: zombie1 Classique Spreadsheet 1_148
+    21300298: zombie1 Classique Spreadsheet 1_149
+    21300300: zombie1 Classique Spreadsheet 1_150
+    21300302: zombie1 Classique Spreadsheet 1_151
+    21300304: zombie1 Classique Spreadsheet 1_152
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 4065
+        height: 2928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a4af4e70d5be94bab7d5017300608d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2364
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040c8a3d14373404e9433158fc85f0a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2330
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9e62e0449528c4291d8cb878b57c73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2311
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164c859375c9b004a8e246afab76ae28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2305
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0d5a2107694fa408dfc4be6a09df80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2297
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47c66f5d4ba8eb4f8caaebbaa6e894b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2287
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b18ae592600b1c4493a4ac4274a1840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2287
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97d6cbe4af2ee14b8d1dd0521a6597b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2281
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d94c38bddf3147ae0c002beb40e39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2279
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21da49b4a773181498921c6b39b76e69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2271
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c399aa7aa03ec814d9eddc61e61558f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2273
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2aaa085d83b274ba8fa7e5357d3b37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2265
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3990b1f992470194f822ecf145885d39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2257
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98869864e58e904ca8e73b6516fb969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48631142155fa5c4e9841c44fcec5750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2243
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a06559108c903840a7d74852c7aa0eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2239
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5da11d74777d541b7273a9174af701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2223
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bc5cf71e99dcb44abad5994379b4d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2219
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8458a1546a2c74db9d9ae217f7708d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2219
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a584fb527cfac48b73e3f2e405fea7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2219
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9624a06cf8773414798fe5306cb1875a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2215
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e87061a045874e4e89563432886834e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2176
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113c55bf50ae2a547b713fa9550da426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2178
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ccc90ab61de8c4fbc7eb9724acc14f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2162
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d4048b238658342837e2d7e963d1a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2148
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a232c3ab19d247418d74aef4c05a6d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2154
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e57efc2d1396974296c666b55626564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2140
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bc735bf02217e4ba36e54e8ca22ca2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2142
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7211aea36be795d48879fa54577de6a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6be6a788aa3494dbd5e65224b08508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2132
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ec1b9281fa46a428a6b9233cb35689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e59ec0cb638ad845af29953d9d31b78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2114
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4999e0d55d666724eb3b51cddad86ed9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c54f43ca40b4c143be8a0e597076bfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2106
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe03f04a9f621e4d9ed53b694d9991c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2102
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dc6ea83cc0fdc4a888eca1f0fdbad1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2104
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceb4a2074c1f58439737d761662dc28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2094
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c505e0847d6d33f428c8d2ce3ddc7a56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2085
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a05a7a2858c8b409781012151afd63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2090
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07790983fc13a2e4f8ebdfc3fef14c8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2090
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8f290bf7a9d094d9e0bebdd44c81c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2084
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b8d416718542f4197228b42e5e04c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2080
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9f644331aaec943845e1d05574ca1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2074
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b225ff20f2309ea40bd197ae3c78811b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2072
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd85cf32189d90a478897827ec0a2e28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2067
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e286112cf7ea1844b1cf96b40ce47f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2067
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1840b1f536e814a8396f875458ff8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2060
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b5d62f2778d1944acfb469f5c360a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2043
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a944ac4f3b10a4491b0d580332640f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2039
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb6645d32cff3b47b6d0a7def256b44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_50
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2029
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bd8a70c8d96434b9acc81dcf8e6822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_51
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2025
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c060f6f546e999141be35b4d7c7b0bbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_52
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2015
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ab8b6e649fd0c49ad2444d64baa342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2012
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1bbe816a3a1f44bacea7f74e95ebdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2015
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee9c358440cc774d8fbbc4f39e13df0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2001
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c13eaf9bfb19840a88bb979ed78dd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1989
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106f3c5bba5e58e4085e830748df6f27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1985
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be10cdfb80f29304890f3279fc9df69b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1977
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9d3a509691feb4696906a77b0a2e74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_59
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1967
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9144e00a64608c49b01cb3c95a71486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_60
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1961
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0205417258c2b6c44bc4a2ede882ea82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1957
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b33f30af13e0404997aed1535bf97fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_62
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1961
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088c81e78d3375b48b08450b0de0ae52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1943
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c33382982404204db07bed81d321aa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_64
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1943
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fa1b33c2cf9f6449bcf09ea3123a37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_65
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1938
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f26db4fec49f75488abe108a072ef19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_66
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1943
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4823b480ff89725469c854f5722b5e00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_67
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1931
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec34061acd0525143900461c282cb587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_68
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1926
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc47ae698bc6af4a9148473ec746d17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_69
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1926
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af4c148898f6c149af65062ac86ddef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1914
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e175f88f3d7187944a7b266b8eb1badf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_71
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1918
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73eab3366e95dc14fb7a313de5ca80c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1910
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b7480344a8a5a48a6102265440c1e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_73
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1904
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f410e1e5d69fcb49adf94f9b0b62baf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_74
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1876
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c452483a1ec8f46a659cb189d1ed99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_75
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1894
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c396074ce8175b34e926a45e8084fb4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_76
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1896
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62ed2728f566f419deaf7151d0766e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_77
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1880
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5daa1649e5f650243969c2421215a3e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_78
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1884
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee69deda19ee6924bb1e75b7f6f962ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_79
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1874
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f18af830123f246b7f71f2920e5cd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_80
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1874
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057ceffe02997c5479c47ba8f3293248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1868
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb8943a99d6396468f31d97b9fa390e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_82
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1868
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cec5bc96b91fc46ad1523e5d0171cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_83
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1866
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deebb399813015c4699724f06d82374a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_84
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1864
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b75c0c83ca89a478b0237be15b4fc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_85
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1860
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd89248d30f4ce148b3dd19ff85d3c73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_86
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1862
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cb314d6734ced499f5d1bf25546d4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_87
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1858
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dff1f6361bc8c46baeb208fa72bde7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_88
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1856
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccadc3d5b674084b91410f5e8376bce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1852
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303e0bb820d98e94c828200f45d26813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1852
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfba194c124f0e48b2037778f261e1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_91
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1852
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874df569146a64442adc7c38d1370e61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1828
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8ba55d464d0ed419e2d3cce83b07d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_93
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1842
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dff5618eb1d934f96ebf3b9edbc997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_94
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1844
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78741ccb35adbf8459772bc7c0888899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_95
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1838
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e938e6abfc8ec544aad7a7b8ceee1d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_96
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1836
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20618ebacebac640a06700d6b75cd51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_97
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1828
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc4966fc4cd12241b7fff1057a78f39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1822
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dbdd43bc6651b4f9e3dc389c559b2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_99
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1824
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c13c7f37abbc9342a33489e7d04c123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_100
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1820
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8f6aaf7c7414446aba135d1e4c147e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_101
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1814
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0247d7e6615c92498971834ab88feea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_102
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1814
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1054419423c80144b2e93ad2b4f169d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_103
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1808
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabb13a997d7e784aa88ae83ef1713f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_104
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1803
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67b55d4ecb433a4db7107e9c08d8432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_105
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1797
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eedbab24db39e146a969c82481690e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1785
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040a5b28fa126de4d978ffc2aeec7dd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_107
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1779
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97495c269c6cd384988c34a8cad6284b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_108
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1785
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdae1af2cfb98a24da5abe5e3e46331e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_109
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1773
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c331a9a41ae66a441a795c4ebe32a345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_110
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1771
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5a6e4cebedc4c42907e4320de6a46c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_111
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1757
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1d2c08042e87044ba34a165d838e9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_112
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1763
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6ff2cd1d6bfec488d39fa42aee2192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_113
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1755
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79dce2692709f74e80910fe42b1d025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_114
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1747
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300a8da7deb4bbd46b31bdc8e1cef9cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_115
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1745
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0826aca99f6b44545827291e8064723a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_116
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1743
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3938c56c0c71fcb478e42a9136b73f0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_117
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1741
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc132f9f4969eb341b1fdf4fc3e9e024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_118
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1739
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fb5d5bf8b252045826919660ac1503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_119
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1733
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9299a456a611f144bc411c1a68cb485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_120
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1727
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a327bfd4e28cec7478237f06508f3c33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_121
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1727
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e54ee5d28fee0499d9fa3d03a70aa8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_122
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1719
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f4e79b66bdaae448ac489d9e46a5cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_123
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1715
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf269d8cdbd62264ab4895ac210b11c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_124
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1717
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33db0d591201b4245a83172ed1b17fc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_125
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1707
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8624cff79c2044a8e1939ace6d9186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_126
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1711
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e231f14dd31a9574aa9056ae5992aa4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_127
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1709
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1166ac2f8e24ee44cbe947081dbc4a8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_128
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1697
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4dc5e89d6c6ff408b9d74cc940c19d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_129
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1699
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8d02778acc62248abf9cbeaa020d60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_130
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1697
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92efa339237945b4492c9b58ea26d2ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_131
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1685
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c8ad6271bbac94290dbac9ff5e84cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_132
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1669
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d47bcb2704365140bb68377993ed331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_133
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1659
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d365bc9c871e3364d80c0b8ddc0507eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_134
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1654
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b15ba14e287e194d91c201f406e92ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_135
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1644
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff4b2868b6eb2c4388b586537c96a06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_136
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1636
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932a22477fe68c84bbee92c11cb2178d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_137
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1626
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab3133293f27fa4287b29ed78eb26c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_138
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1618
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2533aac573045d49b2078c36f4acaef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_139
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1612
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab4eca0fbf5e8b408e68eeaf50c72f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_140
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1596
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4496714ac92e51b43a10398ebd037a1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179a7b023eee070418809d6bb666c0ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_142
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 237
+        width: 906
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd242692e1d03647baf014183ae50d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_143
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 13
+        width: 350
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf53fc5c99684a41a06970f895bf006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_144
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 216
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9146d8baedbdd2245a1880605a3baa24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_145
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 39
+        width: 519
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b43f2969ecb7f74dab40eba8c8d1f92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_146
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 0
+        width: 345
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05121cf4df2c3574a8c32ff461f22aa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_147
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 202
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4eee7b5f6d05d4a87a56416828f206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_148
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 0
+        width: 514
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7c0a47aba150849b38ab240366fd0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e856a295442f10247a50ced667c97b93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_150
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8c560a07cb9874c9b3367b9e41388a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_151
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 59
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d3d826d3eaa8e4e875754509702a0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie1 Classique Spreadsheet 1_152
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 45
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f10c3e17a9f7f42ae2d63058d74c15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fb038ba8168875748a74fb46697fbbf6
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

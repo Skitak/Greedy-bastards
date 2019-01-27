@@ -457,6 +457,7 @@ MonoBehaviour:
   backgroundDanger: {fileID: 1253768183}
   life: 0
   charaController: {fileID: 586945016}
+  chara: {fileID: 0}
   positionGo: {fileID: 1528627971}
   offset: 60
   fill: {fileID: 1146210601}
@@ -5338,11 +5339,9 @@ MonoBehaviour:
   maxHealth: 10
   speed: 5
   rigid: {fileID: 586945018}
-  spriteBack: {fileID: 21300000, guid: dda8153b6785c3f4b9ea77397e6d0f35, type: 3}
-  spriteFront: {fileID: 21300000, guid: 2e053700c8570ea4e94c16ae1bcb9cc4, type: 3}
-  spriteRenderer: {fileID: 1055244108}
   newSprites: {fileID: 709434490}
   animator: {fileID: 709434492}
+  source: {fileID: 0}
   maxLootCapacity: 5
   treasuresLooted: 0
   weapon: {fileID: 586945015}
@@ -5382,6 +5381,7 @@ MonoBehaviour:
   travelTime: 0
   OnShootParticlesGo: {fileID: 1318643055}
   OnShootParticles: {fileID: 484418021}
+  audioPick: {fileID: 0}
 --- !u!136 &191230955
 CapsuleCollider:
   m_ObjectHideFlags: 0

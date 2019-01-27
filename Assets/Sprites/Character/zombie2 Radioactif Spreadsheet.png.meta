@@ -1,0 +1,3312 @@
+fileFormatVersion: 2
+guid: 447c7ac08c22ebe4db4505c49e451931
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: zombie2 Radioactif Spreadsheet_0
+    21300002: zombie2 Radioactif Spreadsheet_1
+    21300004: zombie2 Radioactif Spreadsheet_2
+    21300006: zombie2 Radioactif Spreadsheet_3
+    21300008: zombie2 Radioactif Spreadsheet_4
+    21300010: zombie2 Radioactif Spreadsheet_5
+    21300012: zombie2 Radioactif Spreadsheet_6
+    21300014: zombie2 Radioactif Spreadsheet_7
+    21300016: zombie2 Radioactif Spreadsheet_8
+    21300018: zombie2 Radioactif Spreadsheet_9
+    21300020: zombie2 Radioactif Spreadsheet_10
+    21300022: zombie2 Radioactif Spreadsheet_11
+    21300024: zombie2 Radioactif Spreadsheet_12
+    21300026: zombie2 Radioactif Spreadsheet_13
+    21300028: zombie2 Radioactif Spreadsheet_14
+    21300030: zombie2 Radioactif Spreadsheet_15
+    21300032: zombie2 Radioactif Spreadsheet_16
+    21300034: zombie2 Radioactif Spreadsheet_17
+    21300036: zombie2 Radioactif Spreadsheet_18
+    21300038: zombie2 Radioactif Spreadsheet_19
+    21300040: zombie2 Radioactif Spreadsheet_20
+    21300042: zombie2 Radioactif Spreadsheet_21
+    21300044: zombie2 Radioactif Spreadsheet_22
+    21300046: zombie2 Radioactif Spreadsheet_23
+    21300048: zombie2 Radioactif Spreadsheet_24
+    21300050: zombie2 Radioactif Spreadsheet_25
+    21300052: zombie2 Radioactif Spreadsheet_26
+    21300054: zombie2 Radioactif Spreadsheet_27
+    21300056: zombie2 Radioactif Spreadsheet_28
+    21300058: zombie2 Radioactif Spreadsheet_29
+    21300060: zombie2 Radioactif Spreadsheet_30
+    21300062: zombie2 Radioactif Spreadsheet_31
+    21300064: zombie2 Radioactif Spreadsheet_32
+    21300066: zombie2 Radioactif Spreadsheet_33
+    21300068: zombie2 Radioactif Spreadsheet_34
+    21300070: zombie2 Radioactif Spreadsheet_35
+    21300072: zombie2 Radioactif Spreadsheet_36
+    21300074: zombie2 Radioactif Spreadsheet_37
+    21300076: zombie2 Radioactif Spreadsheet_38
+    21300078: zombie2 Radioactif Spreadsheet_39
+    21300080: zombie2 Radioactif Spreadsheet_40
+    21300082: zombie2 Radioactif Spreadsheet_41
+    21300084: zombie2 Radioactif Spreadsheet_42
+    21300086: zombie2 Radioactif Spreadsheet_43
+    21300088: zombie2 Radioactif Spreadsheet_44
+    21300090: zombie2 Radioactif Spreadsheet_45
+    21300092: zombie2 Radioactif Spreadsheet_46
+    21300094: zombie2 Radioactif Spreadsheet_47
+    21300096: zombie2 Radioactif Spreadsheet_48
+    21300098: zombie2 Radioactif Spreadsheet_49
+    21300100: zombie2 Radioactif Spreadsheet_50
+    21300102: zombie2 Radioactif Spreadsheet_51
+    21300104: zombie2 Radioactif Spreadsheet_52
+    21300106: zombie2 Radioactif Spreadsheet_53
+    21300108: zombie2 Radioactif Spreadsheet_54
+    21300110: zombie2 Radioactif Spreadsheet_55
+    21300112: zombie2 Radioactif Spreadsheet_56
+    21300114: zombie2 Radioactif Spreadsheet_57
+    21300116: zombie2 Radioactif Spreadsheet_58
+    21300118: zombie2 Radioactif Spreadsheet_59
+    21300120: zombie2 Radioactif Spreadsheet_60
+    21300122: zombie2 Radioactif Spreadsheet_61
+    21300124: zombie2 Radioactif Spreadsheet_62
+    21300126: zombie2 Radioactif Spreadsheet_63
+    21300128: zombie2 Radioactif Spreadsheet_64
+    21300130: zombie2 Radioactif Spreadsheet_65
+    21300132: zombie2 Radioactif Spreadsheet_66
+    21300134: zombie2 Radioactif Spreadsheet_67
+    21300136: zombie2 Radioactif Spreadsheet_68
+    21300138: zombie2 Radioactif Spreadsheet_69
+    21300140: zombie2 Radioactif Spreadsheet_70
+    21300142: zombie2 Radioactif Spreadsheet_71
+    21300144: zombie2 Radioactif Spreadsheet_72
+    21300146: zombie2 Radioactif Spreadsheet_73
+    21300148: zombie2 Radioactif Spreadsheet_74
+    21300150: zombie2 Radioactif Spreadsheet_75
+    21300152: zombie2 Radioactif Spreadsheet_76
+    21300154: zombie2 Radioactif Spreadsheet_77
+    21300156: zombie2 Radioactif Spreadsheet_78
+    21300158: zombie2 Radioactif Spreadsheet_79
+    21300160: zombie2 Radioactif Spreadsheet_80
+    21300162: zombie2 Radioactif Spreadsheet_81
+    21300164: zombie2 Radioactif Spreadsheet_82
+    21300166: zombie2 Radioactif Spreadsheet_83
+    21300168: zombie2 Radioactif Spreadsheet_84
+    21300170: zombie2 Radioactif Spreadsheet_85
+    21300172: zombie2 Radioactif Spreadsheet_86
+    21300174: zombie2 Radioactif Spreadsheet_87
+    21300176: zombie2 Radioactif Spreadsheet_88
+    21300178: zombie2 Radioactif Spreadsheet_89
+    21300180: zombie2 Radioactif Spreadsheet_90
+    21300182: zombie2 Radioactif Spreadsheet_91
+    21300184: zombie2 Radioactif Spreadsheet_92
+    21300186: zombie2 Radioactif Spreadsheet_93
+    21300188: zombie2 Radioactif Spreadsheet_94
+    21300190: zombie2 Radioactif Spreadsheet_95
+    21300192: zombie2 Radioactif Spreadsheet_96
+    21300194: zombie2 Radioactif Spreadsheet_97
+    21300196: zombie2 Radioactif Spreadsheet_98
+    21300198: zombie2 Radioactif Spreadsheet_99
+    21300200: zombie2 Radioactif Spreadsheet_100
+    21300202: zombie2 Radioactif Spreadsheet_101
+    21300204: zombie2 Radioactif Spreadsheet_102
+    21300206: zombie2 Radioactif Spreadsheet_103
+    21300208: zombie2 Radioactif Spreadsheet_104
+    21300210: zombie2 Radioactif Spreadsheet_105
+    21300212: zombie2 Radioactif Spreadsheet_106
+    21300214: zombie2 Radioactif Spreadsheet_107
+    21300216: zombie2 Radioactif Spreadsheet_108
+    21300218: zombie2 Radioactif Spreadsheet_109
+    21300220: zombie2 Radioactif Spreadsheet_110
+    21300222: zombie2 Radioactif Spreadsheet_111
+    21300224: zombie2 Radioactif Spreadsheet_112
+    21300226: zombie2 Radioactif Spreadsheet_113
+    21300228: zombie2 Radioactif Spreadsheet_114
+    21300230: zombie2 Radioactif Spreadsheet_115
+    21300232: zombie2 Radioactif Spreadsheet_116
+    21300234: zombie2 Radioactif Spreadsheet_117
+    21300236: zombie2 Radioactif Spreadsheet_118
+    21300238: zombie2 Radioactif Spreadsheet_119
+    21300240: zombie2 Radioactif Spreadsheet_120
+    21300242: zombie2 Radioactif Spreadsheet_121
+    21300244: zombie2 Radioactif Spreadsheet_122
+    21300246: zombie2 Radioactif Spreadsheet_123
+    21300248: zombie2 Radioactif Spreadsheet_124
+    21300250: zombie2 Radioactif Spreadsheet_125
+    21300252: zombie2 Radioactif Spreadsheet_126
+    21300254: zombie2 Radioactif Spreadsheet_127
+    21300256: zombie2 Radioactif Spreadsheet_128
+    21300258: zombie2 Radioactif Spreadsheet_129
+    21300260: zombie2 Radioactif Spreadsheet_130
+    21300262: zombie2 Radioactif Spreadsheet_131
+    21300264: zombie2 Radioactif Spreadsheet_132
+    21300266: zombie2 Radioactif Spreadsheet_133
+    21300268: zombie2 Radioactif Spreadsheet_134
+    21300270: zombie2 Radioactif Spreadsheet_135
+    21300272: zombie2 Radioactif Spreadsheet_136
+    21300274: zombie2 Radioactif Spreadsheet_137
+    21300276: zombie2 Radioactif Spreadsheet_138
+    21300278: zombie2 Radioactif Spreadsheet_139
+    21300280: zombie2 Radioactif Spreadsheet_140
+    21300282: zombie2 Radioactif Spreadsheet_141
+    21300284: zombie2 Radioactif Spreadsheet_142
+    21300286: zombie2 Radioactif Spreadsheet_143
+    21300288: zombie2 Radioactif Spreadsheet_144
+    21300290: zombie2 Radioactif Spreadsheet_145
+    21300292: zombie2 Radioactif Spreadsheet_146
+    21300294: zombie2 Radioactif Spreadsheet_147
+    21300296: zombie2 Radioactif Spreadsheet_148
+    21300298: zombie2 Radioactif Spreadsheet_149
+    21300300: zombie2 Radioactif Spreadsheet_150
+    21300302: zombie2 Radioactif Spreadsheet_151
+    21300304: zombie2 Radioactif Spreadsheet_152
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 4065
+        height: 2928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255b4b385a6356b42ab7d9b971cc6204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2364
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca655e7ad42705e45b75b5f327bd836c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2330
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63af935ce1b46214cbb0fb83f0c012d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2311
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fcb7fbf06483d41b85f6be4ddbeda7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2305
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fa5838ecd3b1a448be1c433940037a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2297
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fcff3295c8c4e4aad785c91be4c0c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2287
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4c1f64bccc3814bb8c168a545da04b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2287
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6977128bdd860904c95cf59a57e58780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2281
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c9077222611fd4aac53b3b0b1cbccf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2279
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f95c62badbffb44ad213dc1889ca82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2271
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1709c0293a26140903f944911158bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2273
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b841e7dd13e5ada478e621dec625f723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2265
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5e09d40a0da9346b6c4eb864420e30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2257
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00131942d8da8764abddcc4a284ec06b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2339157b69b4649872245f2bf82652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2243
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab303783953f3246936330af4f8f4cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2239
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb37eb9ee1f76343bc1f879341b07a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2223
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1055451626914f428ba2a32696ac1f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2219
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccbc24ed31794143a0f385c1599ecc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2219
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cf3a43d54f07e4485ff36e04e6b278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2219
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad172bed1e82a94a8ff1d7273bd87d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2215
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c38fe618420dc43a6cdde03ca76447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_22
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2176
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdf43b9a6ac86048819c2b6cb027712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2178
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbaaabf2fb57e840b890f6b509edbfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_24
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2162
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e57afb86594d744b61f74e4cfacfae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2148
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e78b3063a4fd24418aa43fdc01a971e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2154
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9421b59f2ff790645ac26a7ef0817a54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2140
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75530fdbdb34cb419737921b673e59b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2142
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf464e0b4196784cb9526e10791539a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_29
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bc3a3ac0a02dc4bad5b6aa126a20bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_30
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2132
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b3340ff26aa9043bda4d29f07f0295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6c69ccef69f8849b4e63ace51aa179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2114
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0108235bdab4e1f4098911cd7c96228b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9c7256c1ed2854abf6e600e5f9f58e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2106
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fd6eb10f4ea2c46b12965dd652e32c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_35
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2102
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf319734e904c25428de726d8eb559cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2104
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a754c7e3d70e9534185d12bfbbdae27b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_37
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2094
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9dbbc094aa21948b96200a562be9a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2085
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca2316420eeb0e4cbc9828f7e34f7ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_39
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2090
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9163c3428e1524d86176488e990b82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2090
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c1c3ceb0b28c84fb63bbc16e8a798f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_41
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2084
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e4e1f8778b3ab4c95a0f4b2120468d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_42
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2080
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef176947bf1690f4595c4322a5403956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2074
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4864233d21a811e42b463d9ee7a45828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_44
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2072
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84801a91a27c4744fadfab42d5e21824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_45
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2067
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8370fe697967641b0fddfde18e2281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_46
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2067
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0c7e1ed56356d49b63930e242a509e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_47
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2060
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392cdab187530674a9aa91cb6989127b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2043
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40f54c7baa360d4196752906d984088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2039
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67536c013db26341b176a7d7f0e0912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_50
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2029
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446d23827de86c444b100831b08cd68b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_51
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2025
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ce9403458838a4394c6f74cc556916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_52
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2015
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d73c37f8094e846a1d9a6f7ea88c24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2012
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9343070f5ccf742bc92790b15501f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2015
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f729ded6f3769547b062a6f355ab15e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2001
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcf5fd84a11f754ab5eea72644dd86c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1989
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b193d108f6d62e4da5d6017d4b4b7de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1985
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7882ae447c517740b4bf8ee92d2b183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1977
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db034290528ed249b147a052e2816f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_59
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1967
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc904e08b014654cb6a83b1a144a610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_60
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1961
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b0e8e197de78448b4e6a17f3703dbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_61
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1957
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4062b16d41ce3ad40b7dfe180a7654ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_62
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1961
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd19bfbd9a195e841884a101aedd9fb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1943
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67b0ab1a94e06840b454b2b09ff43b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_64
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1943
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6190c7c98730604ba181364234dd99e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_65
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1938
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ef542da6e693242913a8ea67c21504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_66
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1943
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b638fcc0e057764fb1793594eda8b8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_67
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1931
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a6d39ead84c0546ad901fb3ed0d69f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_68
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1926
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e904d2493a09f7d448ea634286e5fa1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_69
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1926
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc377bab0fa72794790916181e15d7b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1914
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2099d6f2b69cb2418da2adc4bb42379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_71
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1918
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d53a18ebee24414d98d3397fa5a716f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1910
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4958be90da246d84882da5acd28bf088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_73
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1904
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5fc6a00c5261944a9eac2ad2160215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_74
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1876
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f532e2106510940bc45bffbe7e2778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_75
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1894
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35df23b2638771c408213bdb83e030bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_76
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1896
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec95417e8e86310479e96353f3e2b119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_77
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1880
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56778233ac30f247add929beaaf79f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_78
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1884
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94596672c44a194ba90e1c60e6606b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_79
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1874
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b343ce7eac1334c9b8ce56a798585d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_80
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1874
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23d560e6bb7c2d46bfbda6cf8dd2d40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1868
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdb31b4ae3184241854b4a13ac96f84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_82
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1868
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4844b6c9c67781642a9bf3ed7c7b7e43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_83
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1866
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7aa0bbddda41184e851c1f4151184a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_84
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1864
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b3e9373f6c139448ad26f34bb72848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_85
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1860
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411b9f4b3d14e394f8849fa0f3c8b50f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_86
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1862
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c91e212127a201428bf2c9129306261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_87
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1858
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70866be16506b9e42bca558f35595eec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_88
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1856
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ce4a2f46eacc74b9634256e094302d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1852
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe755c9591ecf947997fdb41d6897b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1852
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8812b144620854d8e4aadb8fcab524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_91
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1852
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3788f638da95b040936c34d4a35d9d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1828
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5410b5cefcd7a164d9d3a4071c194561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_93
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1842
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a541413c0ddbf488870affd5c396c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_94
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1844
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69a2bfc14b43844f9022cd3538b948c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_95
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1838
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14e28657d70df24895b4029b8d1e9c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_96
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1836
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c049f674faf2f84fbc5a862b29339f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_97
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1828
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af422889455051419ffb524aa51dcfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1822
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217bafa420976564fb4d7d3444ecf9bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_99
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1824
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab4ed86510940543a7a53d46458859e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_100
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1820
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1404a4c46822d4eb322b7d345803f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_101
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1814
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d53ba2b73e6f204aba21ded55eb5982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_102
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1814
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bb418ed295fd64697814d2fb5196f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_103
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1808
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7938b7e6668f142a0c3fff03a71db3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_104
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1803
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521b6499de4126d4b9dcc4763f50bdb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_105
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1797
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1a53476dfd35f41b42e9f5e6eaee4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1785
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1384e94539d60e40abda8e2bcf6cffe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_107
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1779
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b210f4c994015443bb24dac3aa7d351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_108
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1785
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d5d2c2b3b68f04db1fd29f0ae0cafb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_109
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1773
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f572999d0ab91d4da67f74c48fc9385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_110
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1771
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f5d6ba0781b4749b6bf50d1a2607e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_111
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1757
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfb58864d5aaf144999bfe88b6b0242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_112
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1763
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6f7d552013aaf4991cacc44fbac35d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_113
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1755
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c191d122b46552641b6c8f678891bd46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_114
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1747
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acea97dc62a3e0743ad8d38ab9eec66a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_115
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1745
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d55bfc44bbc20b47b7bb0b3b54191ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_116
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1743
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287330ebe864d9f42a661a333dbe9609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_117
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1741
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5216c419b5c444498c3af68433abec4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_118
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1739
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883a32fb3c08b574186f72ee96286afe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_119
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1733
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17fd03b2194adf4d8237a94d586a7e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_120
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1727
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5e4c69ef7e3234fbc7a848d1c9e9c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_121
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1727
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ea846d57879bf4ba257d917803a5fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_122
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1719
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f592e16b18457e943b5d896b09c8fb8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_123
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1715
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6169cbd4deca85e4fb42157726c9fd80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_124
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1717
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df424279077b8274fb83abd9c388ffc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_125
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1707
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07a54824436e384d8bc478b06460394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_126
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1711
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a995a72761b61f4bbe260e2925cfd3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_127
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1709
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03417295ac0af64ea42ffdb10e3d96b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_128
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1697
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9455de504bd2544d9e5b5a631c6a2ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_129
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1699
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44db6607875c034d97ec3d647ef126b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_130
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1697
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c035fefc2a768ae49ae659afff05412b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_131
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1685
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4748f9be3a41a2d4dbaccb3ffe4928ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_132
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1669
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e4a17257308ca4f8a4b4f0beb8c689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_133
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1659
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74032e473cd8b646adde38a74f0affb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_134
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1654
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baca6b461ee0b9f459a7776a99578b44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_135
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1644
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaf397e79615aa48b93bbe33fa18206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_136
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1636
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523942efa9b18e54794657b08cc2865b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_137
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1626
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aeb40f16e2e3d41969f8a16ad0e9f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_138
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1618
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77358ffc8324be94a91db44c3b50cf12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_139
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1612
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31829e5dd1f37ad48aaf01a9cf399ed0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_140
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1596
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a27cc8c148a1e49a6b47a296ff8d86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ef2ff370d9f1449a791da35915dee2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_142
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 237
+        width: 906
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a21065d45dfae428c30a9cd94519d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_143
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 13
+        width: 350
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9391ae32d4883d541b4e5c21d3e01aad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_144
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 216
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55201b1a41fdec241850d4f9c3af4635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_145
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 39
+        width: 519
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb5cabe75886024d8687b624dbea577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_146
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 0
+        width: 345
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae9179cb0395824cbaf460053dd1ca6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_147
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 202
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d043d2fe380f60140864971ae246056d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_148
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 0
+        width: 514
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d701ec0fc7c150545a215cd2a0695238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f150037a0f50f0349a99e6b46405d5c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_150
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7052064900c853419d86484b764b774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_151
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 59
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839ffdac74fd2794184d71e2d59eaa66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2 Radioactif Spreadsheet_152
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 45
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f52bc40c38d72749ba2a5e2824a5558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2d2a7d578f5b67540b48006e5869cb65
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
