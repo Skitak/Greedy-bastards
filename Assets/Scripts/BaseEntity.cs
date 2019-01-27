@@ -44,13 +44,13 @@ public class BaseEntity : MonoBehaviour {
 
         if (source.clip != null && rigid.velocity.magnitude > 3f)
         {
-            source.Play ();
-            source.loop = true;
+            //source.Play ();
+            //source.loop = true;
         }  
         else
         {
-            source.loop = false;
-            source.Stop();
+           //source.loop = false;
+            //source.Stop();
         }
 
         
