@@ -381,15 +381,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3cce132f7e211054cb38ad86a956d67a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 344f5da6ee4535c4d84fafa36dceafdb, type: 2}
-  m_Camera: {fileID: 0}
-  m_PreviousProfile: {fileID: 0}
-  m_RenderingInSceneView: 0
+  smoothingTime: 0.5
+  cameraMinSize: 5
+  cameraMaxSize: 10
+  cameraBorderSize: 3
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -835,6 +833,125 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904186975}
   m_CullTransparentMesh: 0
+--- !u!1 &989433544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 962544387, guid: 5839f80b885232d43a8e49fc8368737b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1613180950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &989433547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989433544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae59befcd892ea42ab8b2d2d259a4c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - {fileID: 8300000, guid: 967efb244bc2b204a9c44a2dcac9db41, type: 3}
+  - {fileID: 8300000, guid: cf270514d0698a04daf75a9a58ecbbab, type: 3}
+  - {fileID: 8300000, guid: 67fb1d6a7cfeb014eb128b4f9b7a48e6, type: 3}
+  - {fileID: 8300000, guid: 340e06db2ef269549b6c5666bd7d0f9a, type: 3}
+--- !u!82 &989433548
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989433544}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.73
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1110715671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,6 +1582,10 @@ PrefabInstance:
       propertyPath: maxLootCapacity
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 586945015, guid: 5839f80b885232d43a8e49fc8368737b, type: 3}
+      propertyPath: audioPick
+      value: 
+      objectReference: {fileID: 989433547}
     - target: {fileID: 149908994, guid: 5839f80b885232d43a8e49fc8368737b, type: 3}
       propertyPath: SubModule.subEmitters.Array.data[0].emitter
       value: 

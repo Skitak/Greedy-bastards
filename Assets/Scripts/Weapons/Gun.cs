@@ -16,6 +16,8 @@ public class Gun : Weapon {
     public GameObject OnShootParticlesGo;
     public ParticleSystem OnShootParticles;
 
+    public AudioPicker audioPick;
+
 
     protected override void Start() {
         base.Start();
@@ -27,6 +29,9 @@ public class Gun : Weapon {
         Vector2 velocity = direction.normalized * speed;
         Vector3 spawningOffset = new Vector3 (direction.normalized.x, 0, direction.normalized.y);
         BulletPool.instantiateBullet(this.transform.position + spawningOffset, velocity, this);
+
+        audioPick.Picker();
+
 
         if (OnShootParticles != null && OnShootParticlesGo != null){
             //OnShootParticlesGo.transform.LookAt(this.transform.position + spawningOffset);
