@@ -32,7 +32,6 @@ public class Gun : Weapon {
 
         audioPick.Picker();
 
-
         if (OnShootParticles != null && OnShootParticlesGo != null){
             //OnShootParticlesGo.transform.LookAt(this.transform.position + spawningOffset);
             OnShootParticles.enableEmission = true;

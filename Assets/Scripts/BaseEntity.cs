@@ -20,6 +20,9 @@ public class BaseEntity : MonoBehaviour {
     private int health;
     public Animator animator;
 
+    public AudioSource source;
+    
+
     protected virtual void Start() {
         health = maxHealth;
     }
@@ -39,6 +42,18 @@ public class BaseEntity : MonoBehaviour {
         animator.SetFloat("Speed", direction.magnitude);
         float modifiedSpeed = speed * (hasLootBag ? (1f - (lootBag.GetSlowPercentage() / 100f)) : 1);
         rigid.velocity = new Vector3 (direction.x, 0, direction.y) * modifiedSpeed;
+
+        if (source.clip != null && rigid.velocity.magnitude > 3f)
+        {
+            source.Play ();
+            source.loop = true;
+        }  
+        else
+        {
+            source.loop = false;
+            source.Stop();
+        }
+
         
     }
 
