@@ -23,7 +23,6 @@ public class BaseEntity : MonoBehaviour {
 
     protected virtual void Start() {
         health = maxHealth;
-        animator.SetBool("Dead", true);
     }
 
     public int Health {
@@ -79,7 +78,7 @@ public class BaseEntity : MonoBehaviour {
     protected virtual void Die() {
         ThrowLootBag(Vector2.zero);
         isDead = true;
-        animator.SetBool("Dead", true);
+        animator.SetTrigger("Died");
     }
 
     public virtual void Hit(int damages){
