@@ -8,11 +8,11 @@ public class Bullet : MonoBehaviour {
     private Vector3 velocity;
     private Rigidbody rigid;
     private Timer onScreenTime;
-
     public ParticleSystem particle;
 
     private void Start() {
         rigid = this.GetComponent<Rigidbody>();
+
         onScreenTime = new Timer(5f);
         onScreenTime.OnTimerEnd += registerToBulletPool;
         registerToBulletPool();
@@ -21,10 +21,7 @@ public class Bullet : MonoBehaviour {
     private void Update() {
         rigid.velocity = this.velocity;
     }
-    private void OnCollisionEnter2D(Collision2D other) {
-        particle.Play();
-        registerToBulletPool();
-    }
+
 
     public void fire(Vector2 velocity, Gun owner){
         this.owner = owner;
@@ -43,6 +40,11 @@ public class Bullet : MonoBehaviour {
         if (other.gameObject.tag == "Mob"){
             other.gameObject.GetComponent<BaseEntity>().Hit(owner.damages);
             particle.Play();
+            registerToBulletPool();
+            this.gameObject.SetActive(false);
+        } 
+        else
+        {
             registerToBulletPool();
         }
     }

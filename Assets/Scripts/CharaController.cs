@@ -19,7 +19,7 @@ public class CharaController : MonoBehaviour
         
         if (controllerName == "none" || GameManager.instance.isGamePaused )
             return;
-         direction = new Vector2(Input.GetAxis(horizontal), Input.GetAxis(vertical));
+        direction = new Vector2(Input.GetAxis(horizontal), Input.GetAxis(vertical));
         if (controllerName == "keyboard")
             orientation = getKeyboardOrientation();
         else
