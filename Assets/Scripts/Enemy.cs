@@ -42,7 +42,7 @@ public class Enemy : BaseEntity {
         base.Start();
         new Timer(2f, delegate(){
             hasSpawned = true;
-        });
+        }).Play();
             searchTimer = new Timer(searchFrequency, LookForTarget);
             roamTimer = new Timer(roamFrequency, RoamAgain);
             navMeshAgent = GetComponent<NavMeshAgent>();
@@ -143,6 +143,8 @@ public class Enemy : BaseEntity {
     public override void Hit (int damage)
     {
         base.Hit(damage);
+        if (isDead)
+            return;
         isStun = true;
         animator.SetTrigger("Hit");
         new Timer(.2f, delegate(){
