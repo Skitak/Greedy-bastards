@@ -5,6 +5,8 @@ using UnityEngine;
 public class Loot : MonoBehaviour
 {
     public int value;
+    public float despawnTime = 5f;
+    Timer timer;
 
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "Player")
@@ -14,6 +16,13 @@ public class Loot : MonoBehaviour
 
     public void OnLootCollected(){
         Destroy(this.gameObject);
+    }
+
+    void Start ()
+    {
+        timer = new Timer (despawnTime, delegate () {Destroy(this);});
+
+        timer.Play();
     }
 
 }
