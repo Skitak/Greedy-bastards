@@ -8,6 +8,9 @@ public class Bullet : MonoBehaviour {
     private Vector3 velocity;
     private Rigidbody rigid;
     private Timer onScreenTime;
+
+    public ParticleSystem particle;
+
     private void Start() {
         rigid = this.GetComponent<Rigidbody>();
         onScreenTime = new Timer(5f);
@@ -39,6 +42,7 @@ public class Bullet : MonoBehaviour {
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "Mob"){
             other.gameObject.GetComponent<BaseEntity>().Hit(owner.damages);
+            particle.Play();
             registerToBulletPool();
         }
     }
