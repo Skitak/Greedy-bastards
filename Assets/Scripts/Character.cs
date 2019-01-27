@@ -44,4 +44,5 @@ public class Character : BaseEntity
         lootBag.FillBag(treasuresLooted);
         treasuresLooted = 0;
     }
+
 }

@@ -23,6 +23,8 @@ public class LifeTestSliders : MonoBehaviour
     float temp;
 
     public CharaController charaController;
+    private BaseEntity baseEntity;
+    public Character chara;
 
     string controllerName;
 
@@ -44,13 +46,14 @@ public class LifeTestSliders : MonoBehaviour
    
     void Start()
     {
+        maxLife = chara.maxHealth;
         life = maxLife;
-        
+
     }
 
     void Update()
     { 
-            if (charaController.GetControllerName() != "none" && !offseted)
+        if (charaController.GetControllerName() != "none" && !offseted)
         {
             playerNumber = GameManager.GetPlayerNumberFromController(charaController.GetControllerName());
             print (playerNumber);
@@ -58,7 +61,8 @@ public class LifeTestSliders : MonoBehaviour
             offseted = true;
 
         }
-     
+
+        life = chara.Health;  
         
         slider.value = (life/maxLife);
 
