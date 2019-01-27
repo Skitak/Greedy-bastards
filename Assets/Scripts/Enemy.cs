@@ -142,12 +142,12 @@ public class Enemy : BaseEntity {
 
     public override void Hit (int damage)
     {
-        isStun = true;
         base.Hit(damage);
+        isStun = true;
         animator.SetTrigger("Hit");
         new Timer(.2f, delegate(){
             isStun = false;
-        });
+        }).Play();
 
     }
     
