@@ -14,6 +14,7 @@ public class LootBag : MonoBehaviour
     GameObject owner;
     Collider myCollider;
     public Collider childCollider;
+    public LootBagIcon lootBagIcon;
     // public GameObject owner;
     // Timer timerTmpCatch = new Timer(0.5f, delegate(){
     //     owner = null;
@@ -29,6 +30,7 @@ public class LootBag : MonoBehaviour
 
     public void Throw (Vector2 direction) {
         transform.localPosition = Vector3.up;
+        lootBagIcon.SetFollow(null);
         childCollider.enabled = true;
         myCollider.enabled = true;
         spriteRenderer.enabled = true;
@@ -44,10 +46,10 @@ public class LootBag : MonoBehaviour
         if (!grabbed){
             grabbed = true;
             spriteRenderer.enabled = false;
-
             transform.parent = owner.transform;
             transform.localPosition = Vector3.up;
             rigid.velocity = Vector3.zero;
+            lootBagIcon.SetFollow(owner.transform);
             this.owner = owner;
             foreach (GameObject nonOwner in potentialOwners) {
                 if (nonOwner != owner)

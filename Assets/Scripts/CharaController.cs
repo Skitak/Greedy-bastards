@@ -19,7 +19,7 @@ public class CharaController : MonoBehaviour
         
         if (controllerName == "none" || GameManager.instance.isGamePaused )
             return;
-         direction = new Vector2(Input.GetAxis(horizontal), Input.GetAxis(vertical));
+        direction = new Vector2(Input.GetAxis(horizontal), Input.GetAxis(vertical));
         if (controllerName == "keyboard")
             orientation = getKeyboardOrientation();
         else
@@ -59,12 +59,16 @@ public class CharaController : MonoBehaviour
     bool CheckFire(){
         if(controllerName == "keyboard")
             return Input.GetButton(fire);
+            /*
         if (fired && Input.GetAxis(fire) < 0.5)
             return fired = false;
         else if (!fired && Input.GetAxis(fire) > 0.5){
             fired = true;
+            return true;*/
+        else if (Input.GetAxis(fire) > 0.5f)
+        {
             return true;
-        }
+        } else
         return false;
     }
 

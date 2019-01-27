@@ -20,9 +20,10 @@ public class Enemy : BaseEntity {
     private Timer searchTimer;
     private Timer roamTimer;
     private Collider myCollider;
-    private bool isAttacking;
+    private bool isAttacking, hasSpawned;
     private Timer attackTimer;
     private Timer attackCooldownTimer ;
+    private bool isStun;
     ArrayList playerInRange;
     enum EnemyStates {
         ROAM,CHASE,FLEE
@@ -39,16 +40,19 @@ public class Enemy : BaseEntity {
     }
     protected override void Start() {
         base.Start();
-        searchTimer = new Timer(searchFrequency, LookForTarget);
-        roamTimer = new Timer(roamFrequency, RoamAgain);
-        navMeshAgent = GetComponent<NavMeshAgent>();
-        myCollider = GetComponent<Collider>();
-        attackTimer = new Timer(1f, AttackFinished);
-        attackCooldownTimer = new Timer (1f, AttackCooldownFinished) ;
-        LookForTarget();
+        new Timer(2f, delegate(){
+            hasSpawned = true;
+        }).Play();
+            searchTimer = new Timer(searchFrequency, LookForTarget);
+            roamTimer = new Timer(roamFrequency, RoamAgain);
+            navMeshAgent = GetComponent<NavMeshAgent>();
+            myCollider = GetComponent<Collider>();
+            attackTimer = new Timer(1f, AttackFinished);
+            attackCooldownTimer = new Timer (1f, AttackCooldownFinished) ;
+            LookForTarget();
     }
     private void Update() {
-        if (IsDead())
+        if (IsDead() || isStun)
             return;
         animator.SetFloat("OrientationY", orientation.y);
         animator.SetFloat("Speed", navMeshAgent.velocity.magnitude);
@@ -57,7 +61,7 @@ public class Enemy : BaseEntity {
             destination = GetFarAwayFromPlayers();
         else if (state == EnemyStates.CHASE){
             destination = target.transform.position;
-            if (target.tag == "Player" && Vector3.Distance(destination, transform.position) < attackRange && !isAttacking )
+            if (target.tag == "Player" && Vector3.Distance(destination, transform.position) < attackRange && !isAttacking && hasSpawned )
                 TryAttacking();
         }
         else
@@ -134,6 +138,19 @@ public class Enemy : BaseEntity {
     }   
     void AttackCooldownFinished() {
         isAttacking = false;
+    }
+
+    public override void Hit (int damage)
+    {
+        base.Hit(damage);
+        if (isDead)
+            return;
+        isStun = true;
+        animator.SetTrigger("Hit");
+        new Timer(.2f, delegate(){
+            isStun = false;
+        }).Play();
+
     }
     
 }
