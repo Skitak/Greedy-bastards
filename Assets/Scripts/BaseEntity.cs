@@ -18,6 +18,7 @@ public class BaseEntity : MonoBehaviour {
     protected bool isDead = false;
 
     private int health;
+    public Animator animator;
 
     protected virtual void Start() {
         health = maxHealth;
@@ -35,12 +36,15 @@ public class BaseEntity : MonoBehaviour {
     public virtual void Move(Vector2 direction) {
         if (GameManager.instance.isGamePaused)
             return;
+        animator.SetFloat("Speed", direction.magnitude);
         float modifiedSpeed = speed * (hasLootBag ? (1f - (lootBag.GetSlowPercentage() / 100f)) : 1);
         rigid.velocity = new Vector3 (direction.x, 0, direction.y) * modifiedSpeed;
         
     }
 
     public virtual void Orientate(Vector2 orientation) {
+        
+        animator.SetFloat("OrientationY", orientation.y);
         this.orientation = orientation;
         ChangeSpriteOrientation();
 
@@ -61,6 +65,7 @@ public class BaseEntity : MonoBehaviour {
     protected virtual void Die() {
         ThrowLootBag(Vector2.zero);
         isDead = true;
+        animator.SetBool("Dead", true);
     }
 
     public virtual void Hit(int damages){
