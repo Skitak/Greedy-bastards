@@ -16,6 +16,7 @@ public class Enemy : BaseEntity {
     private Vector3 roamTarget;
     private Timer searchTimer;
     private Timer roamTimer;
+    private Collider myCollider;
     ArrayList playerInRange;
     enum EnemyStates {
         ROAM,CHASE,FLEE
@@ -27,9 +28,12 @@ public class Enemy : BaseEntity {
         searchTimer = new Timer(searchFrequency, LookForTarget);
         roamTimer = new Timer(roamFrequency, RoamAgain);
         navMeshAgent = GetComponent<NavMeshAgent>();
+        myCollider = GetComponent<Collider>();
         LookForTarget();
     }
     private void Update() {
+        if (IsDead())
+            return;
         Vector3 destination;
         if (state == EnemyStates.FLEE)
             destination = GetFarAwayFromPlayers();
@@ -41,8 +45,12 @@ public class Enemy : BaseEntity {
     }
 
     protected override void Die(){
+        base.Die();
+        navMeshAgent.SetDestination(transform.position);
         (Instantiate(loot, transform.position, Quaternion.identity) as GameObject).GetComponent<Loot>().value = lootValue;
         searchTimer.Pause();
+        roamTimer.Pause();
+        myCollider.enabled = false;
         // Destroy(this.gameObject);
     }
     void LookForTarget(){
