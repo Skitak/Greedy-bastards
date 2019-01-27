@@ -43,8 +43,8 @@ public class Enemy : BaseEntity {
         roamTimer = new Timer(roamFrequency, RoamAgain);
         navMeshAgent = GetComponent<NavMeshAgent>();
         myCollider = GetComponent<Collider>();
-        attackTimer = new Timer(0.6f, AttackFinished);
-        attackCooldownTimer = new Timer (0.6f, AttackCooldownFinished) ;
+        attackTimer = new Timer(1f, AttackFinished);
+        attackCooldownTimer = new Timer (1f, AttackCooldownFinished) ;
         LookForTarget();
     }
     private void Update() {
@@ -62,13 +62,13 @@ public class Enemy : BaseEntity {
         }
         else
             destination = roamTarget;
+        Orientate(new Vector2((destination - transform.position).normalized.x, (destination - transform.position).normalized.z));
         navMeshAgent.SetDestination(destination);
     }
 
     protected override void Die(){
         base.Die();
         navMeshAgent.SetDestination(transform.position);
-        animator.SetBool("Dead", true);
         (Instantiate(loot, transform.position, Quaternion.identity) as GameObject).GetComponent<Loot>().value = lootValue;
         searchTimer.Pause();
         roamTimer.Pause();

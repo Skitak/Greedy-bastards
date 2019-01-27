@@ -13,6 +13,7 @@ public class LootBag : MonoBehaviour
     ArrayList potentialOwners = new ArrayList();
     GameObject owner;
     Collider myCollider;
+    public Collider childCollider;
     // public GameObject owner;
     // Timer timerTmpCatch = new Timer(0.5f, delegate(){
     //     owner = null;
@@ -28,6 +29,7 @@ public class LootBag : MonoBehaviour
 
     public void Throw (Vector2 direction) {
         transform.localPosition = Vector3.up;
+        childCollider.enabled = true;
         myCollider.enabled = true;
         spriteRenderer.enabled = true;
         transform.parent = null;
@@ -53,6 +55,7 @@ public class LootBag : MonoBehaviour
             }
             potentialOwners.Clear();
             myCollider.enabled = false;
+            childCollider.enabled = false;
             return true;
         }
         return false;

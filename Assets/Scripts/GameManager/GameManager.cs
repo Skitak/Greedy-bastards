@@ -50,6 +50,7 @@ public class GameManager : MonoBehaviour {
         globalLoot = 0;
         Debug.Log("Reset game");
         states.playState.Reset();
+        enemyManager.Reset();
         ChangeState(instance.states.enterPlayState);
     }
 

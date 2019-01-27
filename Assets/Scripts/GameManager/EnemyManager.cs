@@ -11,6 +11,7 @@ public class EnemyManager : MonoBehaviour
     public Timer spawnTimer;
     public float maxSpawnDistanceFromGroup = 20f;
     public bool showLowDistance, showMediumDistance;
+    ArrayList allEnemies = new ArrayList();
 
     void Start() {
         spawnTimer = new Timer(5f, SpawnEnemy);
@@ -51,17 +52,24 @@ public class EnemyManager : MonoBehaviour
     void SpawnEnemy() {
         Vector3 spawnPosition = GameManager.GetCenterPointfromPlayers() + GetRandomDistance(maxSpawnDistanceFromGroup);
         if (spawnPosition.magnitude < lowEnemySpawnDistance)
-            Instantiate(lowEnemyPrefab, spawnPosition, Quaternion.identity);
+            allEnemies.Add(Instantiate(lowEnemyPrefab, spawnPosition, Quaternion.identity) as GameObject);
         else if (spawnPosition.magnitude < mediumEnemySpawnDistance)
-            Instantiate(mediumEnemyPrefab, spawnPosition, Quaternion.identity);
+            allEnemies.Add(Instantiate(mediumEnemyPrefab, spawnPosition, Quaternion.identity) as GameObject);
         else
-            Instantiate(highEnemyPrefab, spawnPosition, Quaternion.identity);
+            allEnemies.Add(Instantiate(highEnemyPrefab, spawnPosition, Quaternion.identity) as GameObject);
         spawnTimer.EndTime = GetSpawnTime();
         spawnTimer.Play();
     }
 
     Vector3 GetRandomDistance(float maxDistance){
         return new Vector3(Random.Range(maxDistance, -maxDistance),1f, Random.Range(maxDistance, -maxDistance));
+    }
+
+    public void Reset() {
+        foreach (GameObject enemy in allEnemies) {
+            if (enemy != null)
+                Destroy(enemy);
+        }
     }
     
 }
