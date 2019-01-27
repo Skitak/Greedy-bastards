@@ -20,7 +20,7 @@ public class Enemy : BaseEntity {
     private Timer searchTimer;
     private Timer roamTimer;
     private Collider myCollider;
-    private bool isAttacking;
+    private bool isAttacking, hasSpawned;
     private Timer attackTimer;
     private Timer attackCooldownTimer ;
     ArrayList playerInRange;
@@ -39,13 +39,16 @@ public class Enemy : BaseEntity {
     }
     protected override void Start() {
         base.Start();
-        searchTimer = new Timer(searchFrequency, LookForTarget);
-        roamTimer = new Timer(roamFrequency, RoamAgain);
-        navMeshAgent = GetComponent<NavMeshAgent>();
-        myCollider = GetComponent<Collider>();
-        attackTimer = new Timer(1f, AttackFinished);
-        attackCooldownTimer = new Timer (1f, AttackCooldownFinished) ;
-        LookForTarget();
+        new Timer(2f, delegate(){
+            hasSpawned = true;
+        });
+            searchTimer = new Timer(searchFrequency, LookForTarget);
+            roamTimer = new Timer(roamFrequency, RoamAgain);
+            navMeshAgent = GetComponent<NavMeshAgent>();
+            myCollider = GetComponent<Collider>();
+            attackTimer = new Timer(1f, AttackFinished);
+            attackCooldownTimer = new Timer (1f, AttackCooldownFinished) ;
+            LookForTarget();
     }
     private void Update() {
         if (IsDead())
@@ -57,7 +60,7 @@ public class Enemy : BaseEntity {
             destination = GetFarAwayFromPlayers();
         else if (state == EnemyStates.CHASE){
             destination = target.transform.position;
-            if (target.tag == "Player" && Vector3.Distance(destination, transform.position) < attackRange && !isAttacking )
+            if (target.tag == "Player" && Vector3.Distance(destination, transform.position) < attackRange && !isAttacking && hasSpawned )
                 TryAttacking();
         }
         else

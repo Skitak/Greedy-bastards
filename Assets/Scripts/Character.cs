@@ -15,6 +15,10 @@ public class Character : BaseEntity
     }
 
     public void OnLootCollide(Loot loot){
+        if (hasLootBag){
+            lootBag.totalLoot += loot.value;
+            return;
+        }
         if (treasuresLooted >= maxLootCapacity )
         return;
         int treasure = (int)Mathf.Min ( maxLootCapacity - treasuresLooted, loot.value);
