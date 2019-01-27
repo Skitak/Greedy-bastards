@@ -612,7 +612,49 @@ AnimationClip:
     path: Head
   m_ScaleCurves: []
   m_FloatCurves: []
-  m_PPtrCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    attribute: m_Sprite
+    path: Head
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 21300002, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    attribute: m_Sprite
+    path: Body
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 21300008, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    attribute: m_Sprite
+    path: Hand Left
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 21300006, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    attribute: m_Sprite
+    path: Hand Right
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 21300020, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    attribute: m_Sprite
+    path: Feet Left
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 21300024, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    attribute: m_Sprite
+    path: Feet Right
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -711,7 +753,55 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
-    pptrCurveMapping: []
+    - serializedVersion: 2
+      path: 130111906
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 2073732236
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 3980318510
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 736282753
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 2691126311
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1383279014
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    - {fileID: 21300002, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    - {fileID: 21300008, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    - {fileID: 21300006, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    - {fileID: 21300020, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
+    - {fileID: 21300024, guid: e0886df47f0d72546b2ccee9bfc657b5, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
