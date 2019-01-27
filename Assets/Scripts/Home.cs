@@ -9,5 +9,6 @@ public class Home : MonoBehaviour
             other.gameObject.GetComponent<Character>().StoreAllLoot();
         if (other.gameObject.tag == "LootBag")
             other.gameObject.GetComponentInParent<LootBag>().StoreAllLoot();
+        GameManager.ResetPlayers();
     }
 }

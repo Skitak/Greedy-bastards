@@ -305,7 +305,7 @@ PrefabInstance:
     - target: {fileID: 7520824563256677241, guid: 99283347dcae40546acf846986db5191,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7520824563256677243, guid: 99283347dcae40546acf846986db5191,
         type: 3}
@@ -362,6 +362,47 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7520824563256677223, guid: 99283347dcae40546acf846986db5191,
+        type: 3}
+      propertyPath: showAttackRange
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069893960281145924, guid: 99283347dcae40546acf846986db5191,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300306, guid: 447c7ac08c22ebe4db4505c49e451931,
+        type: 3}
+    - target: {fileID: 3915357381151666600, guid: 99283347dcae40546acf846986db5191,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300296, guid: 447c7ac08c22ebe4db4505c49e451931,
+        type: 3}
+    - target: {fileID: 4346999028539221038, guid: 99283347dcae40546acf846986db5191,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300308, guid: 447c7ac08c22ebe4db4505c49e451931,
+        type: 3}
+    - target: {fileID: 4036906292731679426, guid: 99283347dcae40546acf846986db5191,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300292, guid: 447c7ac08c22ebe4db4505c49e451931,
+        type: 3}
+    - target: {fileID: 327315312944003873, guid: 99283347dcae40546acf846986db5191,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 447c7ac08c22ebe4db4505c49e451931,
+        type: 3}
+    - target: {fileID: 4924352500263019203, guid: 99283347dcae40546acf846986db5191,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300314, guid: 447c7ac08c22ebe4db4505c49e451931,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99283347dcae40546acf846986db5191, type: 3}
 --- !u!1 &708529016
@@ -1803,6 +1844,16 @@ PrefabInstance:
       propertyPath: pauseCanvas
       value: 
       objectReference: {fileID: 1614920888}
+    - target: {fileID: 1625732186, guid: f47e42bb86de7bf4397bb352a65b4682, type: 3}
+      propertyPath: mediumEnemyPrefab
+      value: 
+      objectReference: {fileID: 7520824563256677241, guid: 99283347dcae40546acf846986db5191,
+        type: 3}
+    - target: {fileID: 1625732186, guid: f47e42bb86de7bf4397bb352a65b4682, type: 3}
+      propertyPath: highEnemyPrefab
+      value: 
+      objectReference: {fileID: 7520824563256677241, guid: 99283347dcae40546acf846986db5191,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f47e42bb86de7bf4397bb352a65b4682, type: 3}
 --- !u!1001 &1428935655926787130
