@@ -1534,6 +1534,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 586945015, guid: 5839f80b885232d43a8e49fc8368737b, type: 3}
+      propertyPath: OnShootParticlesGo
+      value: 
+      objectReference: {fileID: 2062756409}
+    - target: {fileID: 484418021, guid: 5839f80b885232d43a8e49fc8368737b, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484418021, guid: 5839f80b885232d43a8e49fc8368737b, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484418021, guid: 5839f80b885232d43a8e49fc8368737b, type: 3}
+      propertyPath: lengthInSec
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759453943, guid: 5839f80b885232d43a8e49fc8368737b, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 149908994, guid: 5839f80b885232d43a8e49fc8368737b, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1146210600, guid: 5839f80b885232d43a8e49fc8368737b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2241,6 +2265,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &2062756409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 484418018, guid: 5839f80b885232d43a8e49fc8368737b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1613180950}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2126580419
 GameObject:
   m_ObjectHideFlags: 0

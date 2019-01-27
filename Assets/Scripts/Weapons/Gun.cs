@@ -26,7 +26,7 @@ public class Gun : Weapon {
     protected override void use(Vector2 direction) 
     {
         --Ammunitions;
-        Vector2 velocity = direction.normalized * speed;
+        Vector2 velocity = (new Vector2 (accuracy, accuracy) + direction).normalized * speed;
         Vector3 spawningOffset = new Vector3 (direction.normalized.x, 0, direction.normalized.y);
         BulletPool.instantiateBullet(this.transform.position + spawningOffset, velocity, this);
 
@@ -34,9 +34,13 @@ public class Gun : Weapon {
 
         if (OnShootParticles != null && OnShootParticlesGo != null){
             //OnShootParticlesGo.transform.LookAt(this.transform.position + spawningOffset);
+            OnShootParticlesGo.SetActive (true);
+            OnShootParticles.Emit(1);
             OnShootParticles.enableEmission = true;
             OnShootParticles.Play();
         }
+
+    
     }
 
 }
